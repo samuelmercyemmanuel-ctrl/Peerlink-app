@@ -1,0 +1,373 @@
+> [20:05:10.515] [PRIME-MODE ] init (bootstrapped=false pairedTrusted=false keepGame=false)
+> [20:05:11.218] [NET-DISC  ] UDP broadcast discovery initialised (replaces mDNS)
+> [20:05:11.449] [T-STATE   ] MainActivity onResume running=false mode=
+> [20:05:27.680] [STARTUP    ] GodModeManager.init ok
+> [20:05:27.704] [STARTUP    ] Prime alive check ok
+> [20:05:27.709] [PRIME-LADDER] App open — PrimeServer alive=false
+> [20:05:28.539] [T-STATE   ] MainActivity onPause running=false mode=
+> [20:05:28.584] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [20:05:30.506] [T-STATE   ] MainActivity onResume running=false mode=
+> [20:05:30.508] [PRIME-MODE ] NSD watcher starting
+> [20:06:05.629] [PRIME-MODE ] DISCOVERING — Check notification shade — enter the 6-digit code
+> [20:06:05.629] [PRIME-MODE ] Starting notification pairing service
+> [20:06:05.899] GodMode [svc]: Foreground service started — NSD timeout in 60s
+> [20:06:06.587] [T-STATE   ] MainActivity onPause running=false mode=
+> [20:06:18.497] [PRIME-MODE ] Connect port cached: 127.0.0.1:44007
+> [20:06:23.640] [PRIME-MODE ] Pairing port: 127.0.0.1:38705
+> [20:06:23.641] [PRIME-MODE ] DISCOVERING — Enter the 6-digit code shown in your notification
+> [20:06:23.643] GodMode [svc]: ✅ Pairing port → 127.0.0.1:38705
+> [20:06:23.644] [PRIME-MODE ] Pairing endpoint cached: 127.0.0.1:38705
+> [20:06:23.645] [PRIME-MODE ] DISCOVERING — Pairing endpoint detected — enter the 6-digit code
+> [20:06:40.401] GodMode [svc]: Submitting pairing input
+> [20:06:40.436] [PRIME-MODE ] PAIRING — Connecting to ADB daemon
+> [20:06:40.437] [PRIME-MODE ] Pairing port=38705 hosts=[127.0.0.1]
+> [20:06:40.447] [PRIME-MODE ] Trying 127.0.0.1:38705
+> [20:06:41.249] [PRIME-MODE ] Paired via 127.0.0.1 ✅
+> [20:06:41.251] [PRIME-MODE ] Pairing trust confirmed ✅
+> [20:06:41.252] [PRIME-MODE ] PAIRED_IDLE — Paired — keep Wireless debugging on and tap Activate
+> [20:06:41.273] GodMode [svc]: ✅ Paired — waiting for explicit ACTIVATE
+> [20:06:41.311] [PRIME-MODE ] Pairing service lost
+> [20:06:41.312] GodMode [svc]: Pairing service lost after success — expected, ignoring
+> [20:06:45.387] [T-STATE   ] MainActivity onResume running=false mode=
+> [20:06:48.447] [PRIME-MODE ] Master → true
+> [20:06:53.102] [PRIME-MODE ] BOOTSTRAPPING — Completing one-time Prime setup…
+> [20:06:53.102] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=true)
+> [20:06:53.106] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:06:53.113] [PRIME-MODE ] Connecting to Wireless debugging (attempt 1/3)
+> [20:06:53.486] [PRIME-MODE ] Completing Prime permission setup
+> [20:06:53.717] [PRIME-MODE ] Starting Prime engine
+> [20:06:54.993] [PRIME-MODE ] Shizuku-style start sent via 127.0.0.1:44007
+> [20:06:59.055] [PRIME-MODE ] PrimeServer alive ✅
+> [20:06:59.058] [PRIME-MODE ] Bootstrap confirmed ✅
+> [20:06:59.060] [PRIME-MODE ] CONNECTING — Applying performance lock…
+> [20:06:59.704] [PRIME-CLIENT] ( completed (22896 chars)
+> [20:06:59.867] [PRIME-CLIENT] ( completed (1586 chars)
+> [20:07:00.777] [PRIME-CLIENT] ( completed (37862 chars)
+> [20:07:00.971] [PRIME-CLIENT] ( completed (3900 chars)
+> [20:07:01.088] [PRIME-CLIENT] ( completed (98 chars)
+> [20:07:01.218] [PRIME-CLIENT] ( completed (160 chars)
+> [20:07:01.219] [PRIME-CAPS ] graphics=MODERN_CUSTOM verified=true · Modern GameManager custom scaling is already present and readable
+> [20:07:01.337] [PRIME-CLIENT] ( completed (19 chars)
+> [20:07:01.344] [PRIME-CAPS ] sdk=35 freeze=true compact=true graphics=MODERN_CUSTOM verified=true gamePerf=false ART=true
+> [20:07:01.461] [PRIME-CLIENT] ( completed (45 chars)
+> [20:07:01.655] [PRIME-CLIENT] ( completed (4474 chars)
+> [20:07:01.670] [PRIME-MODE ] Original device settings captured for exact restore
+> [20:07:01.800] [PRIME-CLIENT] ( completed (44 chars)
+> [20:07:02.014] [PRIME-CLIENT] ( completed (4502 chars)
+> [20:07:02.023] [PRIME] [20:07:01] [OK]  LanLink doze immunity → system-excidle,com.mediatek.ims,1001
+system-excidle,com.transsion.plat.appupdate
+> [20:07:02.300] [PRIME-CLIENT] ( completed (19 chars)
+> [20:07:02.423] [PRIME-CLIENT] ( completed (45 chars)
+> [20:07:02.424] [PRIME] [20:07:02] [OK]  Airplane shield on → cell,bluetooth,nfc,wimax
+> [20:07:02.576] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime Mode active
+> [20:07:02.580] [PRIME-GUARD] Runtime guardian started
+> [20:07:02.602] [PRIME-GUARD] Foreground guardian requested
+> [20:07:02.608] [PRIME-MODE ] Applied 2/2 requested settings
+> [20:07:02.625] [PRIME-MEM  ] Memory Director started
+> [20:07:02.684] [PRIME-GUARD] Foreground guardian service created
+> [20:07:02.855] [PRIME-CLIENT] ( completed (37 chars)
+> [20:07:03.109] [PRIME-CLIENT] ( completed (1305 chars)
+> [20:07:04.833] [PRIME-CLIENT] ( completed (37 chars)
+> [20:07:06.703] [PRIME-CLIENT] ( completed (37 chars)
+> [20:07:07.819] [PRIME-CLIENT] ( completed (1305 chars)
+> [20:07:08.812] [PRIME-CLIENT] ( completed (37 chars)
+> [20:07:10.338] [PRIME-CLIENT] ( FAILED
+> [20:07:10.371] [PRIME-MODE ] Wireless-debugging advertisement lost; PrimeServer health checked separately
+> [20:07:10.600] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:07:10.627] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:07:10.628] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:07:10.664] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:10.666] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:11.857] [PRIME-CLIENT] ( FAILED
+> [20:07:11.860] [PRIME-CLIENT] ( FAILED
+> [20:07:13.373] [PRIME-CLIENT] ( FAILED
+> [20:07:14.885] [PRIME-CLIENT] ( FAILED
+> [20:07:16.398] [PRIME-CLIENT] ( FAILED
+> [20:07:16.404] [PRIME-CLIENT] ( FAILED
+> [20:07:17.910] [PRIME-CLIENT] ( FAILED
+> [20:07:19.420] [PRIME-CLIENT] ( FAILED
+> [20:07:20.925] [PRIME-CLIENT] ( FAILED
+> [20:07:20.927] [PRIME-CLIENT] ( FAILED
+> [20:07:22.431] [PRIME-CLIENT] ( FAILED
+> [20:07:22.704] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:07:22.707] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:07:22.708] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:07:22.804] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:07:22.810] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:07:22.812] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:07:22.818] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:22.824] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:23.939] [PRIME-CLIENT] ( FAILED
+> [20:07:25.446] [PRIME-CLIENT] ( FAILED
+> [20:07:25.448] [PRIME-CLIENT] ( FAILED
+> [20:07:26.954] [PRIME-CLIENT] ( FAILED
+> [20:07:28.462] [PRIME-CLIENT] ( FAILED
+> [20:07:29.974] [PRIME-CLIENT] ( FAILED
+> [20:07:29.981] [PRIME-CLIENT] ( FAILED
+> [20:07:31.487] [PRIME-CLIENT] ( FAILED
+> [20:07:32.993] [PRIME-CLIENT] ( FAILED
+> [20:07:34.497] [PRIME-CLIENT] ( FAILED
+> [20:07:34.499] [PRIME-CLIENT] ( FAILED
+> [20:07:34.830] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:07:34.831] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:07:34.831] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:07:36.002] [PRIME-CLIENT] ( FAILED
+> [20:07:36.618] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:07:36.621] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:07:36.622] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:07:36.624] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:36.626] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:37.507] [PRIME-CLIENT] ( FAILED
+> [20:07:39.012] [PRIME-CLIENT] ( FAILED
+> [20:07:39.014] [PRIME-CLIENT] ( FAILED
+> [20:07:40.518] [PRIME-CLIENT] ( FAILED
+> [20:07:42.024] [PRIME-CLIENT] ( FAILED
+> [20:07:43.528] [PRIME-CLIENT] ( FAILED
+> [20:07:43.530] [PRIME-CLIENT] ( FAILED
+> [20:07:45.036] [PRIME-CLIENT] ( FAILED
+> [20:07:46.541] [PRIME-CLIENT] ( FAILED
+> [20:07:48.048] [PRIME-CLIENT] ( FAILED
+> [20:07:48.053] [PRIME-CLIENT] ( FAILED
+> [20:07:48.631] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:07:48.632] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:07:48.633] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:07:49.559] [PRIME-CLIENT] ( FAILED
+> [20:07:50.629] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:07:50.631] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:07:50.631] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:07:50.634] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:50.636] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:07:51.065] [PRIME-CLIENT] ( FAILED
+> [20:07:52.569] [PRIME-CLIENT] ( FAILED
+> [20:07:52.571] [PRIME-CLIENT] ( FAILED
+> [20:07:54.078] [PRIME-CLIENT] ( FAILED
+> [20:07:55.585] [PRIME-CLIENT] ( FAILED
+> [20:07:57.089] [PRIME-CLIENT] ( FAILED
+> [20:07:57.091] [PRIME-CLIENT] ( FAILED
+> [20:07:58.598] [PRIME-CLIENT] ( FAILED
+> [20:08:00.113] [PRIME-CLIENT] ( FAILED
+> [20:08:01.624] [PRIME-CLIENT] ( FAILED
+> [20:08:01.626] [PRIME-CLIENT] ( FAILED
+> [20:08:02.642] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:02.644] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:02.646] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:08:02.915] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:08:02.917] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:08:02.918] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:08:02.920] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:02.922] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:03.129] [PRIME-CLIENT] ( FAILED
+> [20:08:04.633] [PRIME-CLIENT] ( FAILED
+> [20:08:06.137] [PRIME-CLIENT] ( FAILED
+> [20:08:06.148] [PRIME-CLIENT] ( FAILED
+> [20:08:07.651] [PRIME-CLIENT] ( FAILED
+> [20:08:09.155] [PRIME-CLIENT] ( FAILED
+> [20:08:10.659] [PRIME-CLIENT] ( FAILED
+> [20:08:10.666] [PRIME-CLIENT] ( FAILED
+> [20:08:12.171] [PRIME-CLIENT] ( FAILED
+> [20:08:13.675] [PRIME-CLIENT] ( FAILED
+> [20:08:14.927] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:14.928] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:14.928] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:08:15.179] [PRIME-CLIENT] ( FAILED
+> [20:08:15.182] [PRIME-CLIENT] ( FAILED
+> [20:08:16.641] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:08:16.644] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:08:16.645] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:08:16.648] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:16.652] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:16.685] [PRIME-CLIENT] ( FAILED
+> [20:08:18.195] [PRIME-CLIENT] ( FAILED
+> [20:08:19.699] [PRIME-CLIENT] ( FAILED
+> [20:08:19.705] [PRIME-CLIENT] ( FAILED
+> [20:08:21.209] [PRIME-CLIENT] ( FAILED
+> [20:08:22.721] [PRIME-CLIENT] ( FAILED
+> [20:08:24.228] [PRIME-CLIENT] ( FAILED
+> [20:08:24.233] [PRIME-CLIENT] ( FAILED
+> [20:08:25.738] [PRIME-CLIENT] ( FAILED
+> [20:08:27.241] [PRIME-CLIENT] ( FAILED
+> [20:08:28.658] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:28.660] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:28.661] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:08:28.664] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:08:28.664] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:08:28.666] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:28.669] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:28.745] [PRIME-CLIENT] ( FAILED
+> [20:08:28.747] [PRIME-CLIENT] ( FAILED
+> [20:08:30.255] [PRIME-CLIENT] ( FAILED
+> [20:08:30.646] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:08:31.760] [PRIME-CLIENT] ( FAILED
+> [20:08:33.268] [PRIME-CLIENT] ( FAILED
+> [20:08:33.273] [PRIME-CLIENT] ( FAILED
+> [20:08:34.826] [PRIME-CLIENT] ( FAILED
+> [20:08:36.280] [T-STATE   ] MainActivity onPause running=false mode=
+> [20:08:36.368] [PRIME-CLIENT] ( FAILED
+> [20:08:37.888] [PRIME-CLIENT] ( FAILED
+> [20:08:37.892] [PRIME-CLIENT] ( FAILED
+> [20:08:39.405] [PRIME-CLIENT] ( FAILED
+> [20:08:40.706] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:40.714] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:40.720] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:08:40.721] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:08:40.728] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:40.743] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:40.915] [PRIME-CLIENT] ( FAILED
+> [20:08:42.423] [PRIME-CLIENT] ( FAILED
+> [20:08:42.428] [PRIME-CLIENT] ( FAILED
+> [20:08:43.941] [PRIME-CLIENT] ( FAILED
+> [20:08:45.452] [PRIME-CLIENT] ( FAILED
+> [20:08:46.959] [PRIME-CLIENT] ( FAILED
+> [20:08:46.964] [PRIME-CLIENT] ( FAILED
+> [20:08:48.475] [PRIME-CLIENT] ( FAILED
+> [20:08:49.985] [PRIME-CLIENT] ( FAILED
+> [20:08:51.496] [PRIME-CLIENT] ( FAILED
+> [20:08:51.503] [PRIME-CLIENT] ( FAILED
+> [20:08:52.785] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:52.789] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:08:52.790] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:08:53.018] [PRIME-CLIENT] ( FAILED
+> [20:08:53.290] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:08:53.297] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:08:53.298] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:08:53.327] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:53.345] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:08:54.526] [PRIME-CLIENT] ( FAILED
+> [20:08:56.041] [PRIME-CLIENT] ( FAILED
+> [20:08:56.050] [PRIME-CLIENT] ( FAILED
+> [20:08:57.561] [PRIME-CLIENT] ( FAILED
+> [20:08:59.076] [PRIME-CLIENT] ( FAILED
+> [20:09:00.583] [PRIME-CLIENT] ( FAILED
+> [20:09:00.587] [PRIME-CLIENT] ( FAILED
+> [20:09:02.094] [PRIME-CLIENT] ( FAILED
+> [20:09:03.602] [PRIME-CLIENT] ( FAILED
+> [20:09:05.109] [PRIME-CLIENT] ( FAILED
+> [20:09:05.115] [PRIME-CLIENT] ( FAILED
+> [20:09:05.394] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:05.396] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:05.396] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:09:06.622] [PRIME-CLIENT] ( FAILED
+> [20:09:06.682] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:09:06.689] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:09:06.690] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:09:06.705] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:06.718] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:08.132] [PRIME-CLIENT] ( FAILED
+> [20:09:09.640] [PRIME-CLIENT] ( FAILED
+> [20:09:09.645] [PRIME-CLIENT] ( FAILED
+> [20:09:11.152] [PRIME-CLIENT] ( FAILED
+> [20:09:12.662] [PRIME-CLIENT] ( FAILED
+> [20:09:14.168] [PRIME-CLIENT] ( FAILED
+> [20:09:14.173] [PRIME-CLIENT] ( FAILED
+> [20:09:15.684] [PRIME-CLIENT] ( FAILED
+> [20:09:17.192] [PRIME-CLIENT] ( FAILED
+> [20:09:18.700] [PRIME-CLIENT] ( FAILED
+> [20:09:18.704] [PRIME-CLIENT] ( FAILED
+> [20:09:18.725] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:18.726] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:18.726] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:09:20.212] [PRIME-CLIENT] ( FAILED
+> [20:09:20.692] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:09:20.695] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:09:20.695] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:09:20.698] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:20.702] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:21.718] [PRIME-CLIENT] ( FAILED
+> [20:09:23.226] [PRIME-CLIENT] ( FAILED
+> [20:09:23.230] [PRIME-CLIENT] ( FAILED
+> [20:09:24.736] [PRIME-CLIENT] ( FAILED
+> [20:09:26.242] [PRIME-CLIENT] ( FAILED
+> [20:09:27.753] [PRIME-CLIENT] ( FAILED
+> [20:09:27.756] [PRIME-CLIENT] ( FAILED
+> [20:09:29.264] [PRIME-CLIENT] ( FAILED
+> [20:09:30.773] [PRIME-CLIENT] ( FAILED
+> [20:09:32.280] [PRIME-CLIENT] ( FAILED
+> [20:09:32.286] [PRIME-CLIENT] ( FAILED
+> [20:09:32.711] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:32.712] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:32.713] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:09:33.578] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:09:33.583] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:09:33.584] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:09:33.588] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:33.591] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:33.796] [PRIME-CLIENT] ( FAILED
+> [20:09:35.303] [PRIME-CLIENT] ( FAILED
+> [20:09:36.811] [PRIME-CLIENT] ( FAILED
+> [20:09:36.816] [PRIME-CLIENT] ( FAILED
+> [20:09:38.326] [PRIME-CLIENT] ( FAILED
+> [20:09:39.850] [PRIME-CLIENT] ( FAILED
+> [20:09:40.893] [T-STATE   ] MainActivity onResume running=false mode=
+> [20:09:41.359] [PRIME-CLIENT] ( FAILED
+> [20:09:41.366] [PRIME-CLIENT] ( FAILED
+> [20:09:42.874] [PRIME-CLIENT] ( FAILED
+> [20:09:44.377] [PRIME-CLIENT] ( FAILED
+> [20:09:45.598] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:45.600] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:45.601] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:09:45.884] [PRIME-CLIENT] ( FAILED
+> [20:09:45.887] [PRIME-CLIENT] ( FAILED
+> [20:09:46.707] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:09:46.709] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:09:46.710] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:09:46.712] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:46.714] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:47.391] [PRIME-CLIENT] ( FAILED
+> [20:09:48.895] [PRIME-CLIENT] ( FAILED
+> [20:09:50.406] [PRIME-CLIENT] ( FAILED
+> [20:09:50.415] [PRIME-CLIENT] ( FAILED
+> [20:09:51.921] [PRIME-CLIENT] ( FAILED
+> [20:09:53.428] [PRIME-CLIENT] ( FAILED
+> [20:09:54.940] [PRIME-CLIENT] ( FAILED
+> [20:09:54.949] [PRIME-CLIENT] ( FAILED
+> [20:09:56.462] [PRIME-CLIENT] ( FAILED
+> [20:09:57.975] [PRIME-CLIENT] ( FAILED
+> [20:09:58.727] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:58.728] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:09:58.730] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:09:58.737] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:09:58.738] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:09:58.744] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:58.748] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:09:59.487] [PRIME-CLIENT] ( FAILED
+> [20:09:59.494] [PRIME-CLIENT] ( FAILED
+> [20:10:00.722] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:10:01.005] [PRIME-CLIENT] ( FAILED
+> [20:10:02.510] [PRIME-CLIENT] ( FAILED
+> [20:10:04.014] [PRIME-CLIENT] ( FAILED
+> [20:10:04.021] [PRIME-CLIENT] ( FAILED
+> [20:10:05.527] [PRIME-CLIENT] ( FAILED
+> [20:10:07.031] [PRIME-CLIENT] ( FAILED
+> [20:10:08.537] [PRIME-CLIENT] ( FAILED
+> [20:10:08.540] [PRIME-CLIENT] ( FAILED
+> [20:10:10.048] [PRIME-CLIENT] ( FAILED
+> [20:10:10.756] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:10:10.763] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:10:10.770] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:10:10.770] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:10:10.773] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:10:10.776] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:10:11.554] [PRIME-CLIENT] ( FAILED
+> [20:10:13.061] [PRIME-CLIENT] ( FAILED
+> [20:10:13.066] [PRIME-CLIENT] ( FAILED
+> [20:10:14.577] [PRIME-CLIENT] ( FAILED
+> [20:10:16.091] [PRIME-CLIENT] ( FAILED
+> [20:10:16.307] [T-STATE   ] MainActivity onPause running=false mode=
+> [20:10:17.599] [PRIME-CLIENT] ( FAILED
+> [20:10:17.604] [PRIME-CLIENT] ( FAILED
+> [20:10:18.359] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [20:10:18.361] [T-STATE   ] MainActivity onResume running=false mode=
+> [20:10:19.113] [PRIME-CLIENT] ( FAILED
+> [20:10:20.624] [PRIME-CLIENT] ( FAILED
+> [20:10:22.135] [PRIME-CLIENT] ( FAILED
+> [20:10:22.141] [PRIME-CLIENT] ( FAILED
+> [20:10:22.818] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:10:22.821] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [20:10:22.821] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [20:10:23.653] [PRIME-CLIENT] ( FAILED
+> [20:10:23.777] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [20:10:23.782] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [20:10:23.783] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [20:10:23.786] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:10:23.794] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [20:10:25.160] [PRIME-CLIENT] ( FAILED
