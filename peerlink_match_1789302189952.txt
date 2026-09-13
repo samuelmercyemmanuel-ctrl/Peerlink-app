@@ -1,0 +1,227 @@
+> [13:19:10.580] [PRIME-MODE ] init (bootstrapped=false pairedTrusted=false keepGame=false)
+> [13:19:11.323] [NET-DISC  ] UDP broadcast discovery initialised (replaces mDNS)
+> [13:19:11.558] [T-STATE   ] MainActivity onResume running=false mode=
+> [13:19:23.477] [STARTUP    ] GodModeManager.init ok
+> [13:19:23.495] [STARTUP    ] Prime alive check ok
+> [13:19:23.515] [PRIME-LADDER] App open — PrimeServer alive=false
+> [13:19:23.979] [T-STATE   ] MainActivity onPause running=false mode=
+> [13:19:24.098] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [13:19:24.099] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [13:19:24.163] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [13:19:24.198] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [13:19:25.689] [T-STATE   ] MainActivity onResume running=false mode=
+> [13:19:25.691] [PRIME-MODE ] NSD watcher starting
+> [13:19:30.139] [PRIME-MODE ] DISCOVERING — Check notification shade — enter the 6-digit code
+> [13:19:30.140] [PRIME-MODE ] Starting notification pairing service
+> [13:19:30.316] GodMode [svc]: Foreground service started — NSD timeout in 60s
+> [13:19:31.190] [T-STATE   ] MainActivity onPause running=false mode=
+> [13:19:31.211] [NET-DISC  ] Discovery stopped
+> [13:19:37.935] [PRIME-MODE ] Connect port cached: 127.0.0.1:41461
+> [13:19:41.868] [PRIME-MODE ] Pairing port: 127.0.0.1:37535
+> [13:19:41.869] [PRIME-MODE ] DISCOVERING — Enter the 6-digit code shown in your notification
+> [13:19:41.872] GodMode [svc]: ✅ Pairing port → 127.0.0.1:37535
+> [13:19:41.873] [PRIME-MODE ] Pairing endpoint cached: 127.0.0.1:37535
+> [13:19:41.874] [PRIME-MODE ] DISCOVERING — Pairing endpoint detected — enter the 6-digit code
+> [13:19:52.150] GodMode [svc]: Submitting pairing input
+> [13:19:52.165] [PRIME-MODE ] PAIRING — Connecting to ADB daemon
+> [13:19:52.168] [PRIME-MODE ] Pairing port=37535 hosts=[127.0.0.1]
+> [13:19:52.184] [PRIME-MODE ] Trying 127.0.0.1:37535
+> [13:19:53.555] [PRIME-MODE ] Paired via 127.0.0.1 ✅
+> [13:19:53.558] [PRIME-MODE ] Pairing trust confirmed ✅
+> [13:19:53.561] [PRIME-MODE ] PAIRED_IDLE — Paired — keep Wireless debugging on and tap Activate
+> [13:19:53.613] [PRIME-MODE ] Pairing service lost
+> [13:19:53.616] GodMode [svc]: Pairing service lost after success — expected, ignoring
+> [13:19:53.621] GodMode [svc]: ✅ Paired — waiting for explicit ACTIVATE
+> [13:19:58.080] [T-STATE   ] MainActivity onResume running=false mode=
+> [13:20:03.063] [PRIME-MODE ] Master → true
+> [13:20:03.729] [PRIME-MODE ] BOOTSTRAPPING — Completing one-time Prime setup…
+> [13:20:03.730] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=true)
+> [13:20:03.739] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [13:20:03.745] [PRIME-MODE ] Connecting to Wireless debugging (attempt 1/3)
+> [13:20:04.014] [PRIME-MODE ] Completing Prime permission setup
+> [13:20:04.579] [PRIME-MODE ] Starting Prime engine
+> [13:20:06.844] [PRIME-MODE ] Shizuku-style start sent via 127.0.0.1:41461
+> [13:20:11.203] [PRIME-MODE ] PrimeServer alive ✅
+> [13:20:11.207] [PRIME-MODE ] Bootstrap confirmed ✅
+> [13:20:11.210] [PRIME-MODE ] CONNECTING — Applying performance lock…
+> [13:20:12.229] [PRIME-CLIENT] ( completed (22896 chars)
+> [13:20:12.407] [PRIME-CLIENT] ( completed (1586 chars)
+> [13:20:13.320] [PRIME-CLIENT] ( completed (37862 chars)
+> [13:20:13.531] [PRIME-CLIENT] ( completed (3900 chars)
+> [13:20:13.649] [PRIME-CLIENT] ( completed (98 chars)
+> [13:20:13.791] [PRIME-CLIENT] ( completed (160 chars)
+> [13:20:13.793] [PRIME-CAPS ] graphics=MODERN_CUSTOM verified=true · Modern GameManager custom scaling is already present and readable
+> [13:20:13.913] [PRIME-CLIENT] ( completed (19 chars)
+> [13:20:13.923] [PRIME-CAPS ] sdk=35 freeze=true compact=true graphics=MODERN_CUSTOM verified=true gamePerf=false ART=true
+> [13:20:14.050] [PRIME-CLIENT] ( completed (45 chars)
+> [13:20:14.245] [PRIME-CLIENT] ( completed (4474 chars)
+> [13:20:14.268] [PRIME-MODE ] Original device settings captured for exact restore
+> [13:20:14.385] [PRIME-CLIENT] ( completed (44 chars)
+> [13:20:14.577] [PRIME-CLIENT] ( completed (4502 chars)
+> [13:20:14.583] [PRIME] [13:20:14] [OK]  LanLink doze immunity → system-excidle,com.mediatek.ims,1001
+system-excidle,com.transsion.plat.appupdate
+> [13:20:14.857] [PRIME-CLIENT] ( completed (19 chars)
+> [13:20:14.977] [PRIME-CLIENT] ( completed (45 chars)
+> [13:20:14.978] [PRIME] [13:20:14] [OK]  Airplane shield on → cell,bluetooth,nfc,wimax
+> [13:20:15.129] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime Mode active
+> [13:20:15.131] [PRIME-GUARD] Runtime guardian started
+> [13:20:15.141] [PRIME-GUARD] Foreground guardian requested
+> [13:20:15.145] [PRIME-MODE ] Applied 2/2 requested settings
+> [13:20:15.146] [PRIME-MEM  ] Memory Director started
+> [13:20:15.242] [PRIME-GUARD] Foreground guardian service created
+> [13:20:15.377] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:15.631] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:17.255] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:18.877] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:19.877] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:20.580] [PRIME-MODE ] Wireless-debugging advertisement lost; PrimeServer health checked separately
+> [13:20:21.112] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:22.928] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:23.936] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:24.810] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:26.433] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:28.056] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:28.302] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:29.925] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:31.677] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:32.854] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:33.731] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:35.461] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:37.081] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:37.237] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:38.860] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:40.485] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:41.481] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:42.349] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:43.968] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:45.588] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:45.830] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:47.455] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:49.072] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:50.063] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:50.931] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:52.552] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:52.985] [PRIME-CLIENT] ( completed (143 chars)
+> [13:20:53.141] [PRIME-CLIENT] ( completed (159 chars)
+> [13:20:53.373] [PRIME-CLIENT] ( completed (154 chars)
+> [13:20:53.499] [PRIME-CLIENT] ( completed (85 chars)
+> [13:20:53.500] [PRIME-GPU  ] Render scale 0.90 verified for next eFootball start
+> [13:20:54.288] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:54.541] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:56.268] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:57.889] [PRIME-CLIENT] ( completed (37 chars)
+> [13:20:58.882] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:20:59.756] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:01.387] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:03.003] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:03.141] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:03.652] [T-STATE   ] MainActivity onPause running=false mode=
+> [13:21:03.687] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [13:21:03.696] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [13:21:03.697] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [13:21:03.704] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [13:21:04.756] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:05.328] [T-STATE   ] MainActivity onResume running=false mode=
+> [13:21:06.481] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:07.482] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:08.258] [T-STATE   ] MainActivity onPause running=false mode=
+> [13:21:08.274] [NET-DISC  ] Discovery stopped
+> [13:21:08.471] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:10.092] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:11.715] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:11.990] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:13.621] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:15.247] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:16.241] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:17.110] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:18.835] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:20.603] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:20.856] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:22.478] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:24.207] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:25.219] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:26.203] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:27.933] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:29.659] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:29.921] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:31.649] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:33.396] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:34.412] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:35.384] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:37.009] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:38.739] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:39.002] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:40.732] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:42.355] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:43.364] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:44.335] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:46.076] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:47.907] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:48.178] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:49.903] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:51.663] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:52.562] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:53.440] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:55.061] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:56.687] [PRIME-CLIENT] ( completed (37 chars)
+> [13:21:56.930] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:21:58.657] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:00.425] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:01.436] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:02.411] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:04.142] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:05.867] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:06.128] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:07.860] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:09.600] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:10.609] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:11.585] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:13.310] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:15.034] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:15.306] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:17.054] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:18.793] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:19.805] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:20.781] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:22.515] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:24.244] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:24.509] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:26.356] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:28.079] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:29.085] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:30.085] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:31.808] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:33.535] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:33.803] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:35.533] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:37.163] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:38.182] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:39.056] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:40.795] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:42.526] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:42.799] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:44.550] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:46.279] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:47.290] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:48.161] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:49.886] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:51.614] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:51.877] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:53.603] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:55.334] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:56.337] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:22:57.317] [PRIME-CLIENT] ( completed (37 chars)
+> [13:22:59.055] [PRIME-CLIENT] ( completed (37 chars)
+> [13:23:00.794] [PRIME-CLIENT] ( completed (37 chars)
+> [13:23:01.060] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:23:02.688] [PRIME-CLIENT] ( completed (37 chars)
+> [13:23:04.412] [PRIME-CLIENT] ( completed (37 chars)
+> [13:23:05.420] [PRIME-CLIENT] ( completed (1305 chars)
+> [13:23:06.288] [PRIME-CLIENT] ( completed (37 chars)
+> [13:23:06.582] [T-STATE   ] MainActivity onResume running=false mode=
+> [13:23:06.597] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [13:23:06.598] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [13:23:06.604] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [13:23:07.909] [PRIME-CLIENT] ( completed (37 chars)
+> [13:23:09.533] [PRIME-CLIENT] ( completed (37 chars)
+> [13:23:09.797] [PRIME-CLIENT] ( completed (1305 chars)
