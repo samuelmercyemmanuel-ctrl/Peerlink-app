@@ -1,0 +1,535 @@
+> [11:46:46.731] [PRIME-MODE ] init (bootstrapped=false pairedTrusted=false keepGame=false)
+> [11:46:47.098] [NET-DISC  ] UDP broadcast discovery initialised (replaces mDNS)
+> [11:46:47.259] [T-STATE   ] MainActivity onResume running=false mode=
+> [11:47:05.574] [STARTUP    ] GodModeManager.init ok
+> [11:47:05.582] [STARTUP    ] Prime alive check ok
+> [11:47:05.590] [PRIME-LADDER] App open — PrimeServer alive=false
+> [11:47:06.043] [T-STATE   ] MainActivity onPause running=false mode=
+> [11:47:06.128] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [11:47:06.129] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [11:47:06.164] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [11:47:06.183] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [11:47:07.683] [T-STATE   ] MainActivity onResume running=false mode=
+> [11:47:07.685] [PRIME-MODE ] NSD watcher starting
+> [11:47:16.239] [PRIME-MODE ] DISCOVERING — Check notification shade — enter the 6-digit code
+> [11:47:16.239] [PRIME-MODE ] Starting notification pairing service
+> [11:47:16.431] GodMode [svc]: Foreground service started — NSD timeout in 60s
+> [11:47:18.371] [T-STATE   ] MainActivity onPause running=false mode=
+> [11:47:18.378] [NET-DISC  ] Discovery stopped
+> [11:47:32.040] [PRIME-MODE ] Connect port cached: 127.0.0.1:39327
+> [11:47:37.748] GodMode [svc]: ✅ Pairing port → 127.0.0.1:39871
+> [11:47:37.748] [PRIME-MODE ] Pairing endpoint cached: 127.0.0.1:39871
+> [11:47:37.749] [PRIME-MODE ] DISCOVERING — Pairing endpoint detected — enter the 6-digit code
+> [11:47:37.783] [PRIME-MODE ] Pairing port: 127.0.0.1:39871
+> [11:47:37.784] [PRIME-MODE ] DISCOVERING — Enter the 6-digit code shown in your notification
+> [11:47:45.363] GodMode [svc]: Submitting pairing input
+> [11:47:45.369] [PRIME-MODE ] PAIRING — Connecting to ADB daemon
+> [11:47:45.370] [PRIME-MODE ] Pairing port=39871 hosts=[127.0.0.1]
+> [11:47:45.377] [PRIME-MODE ] Trying 127.0.0.1:39871
+> [11:47:46.152] [PRIME-MODE ] Paired via 127.0.0.1 ✅
+> [11:47:46.154] [PRIME-MODE ] Pairing trust confirmed ✅
+> [11:47:46.156] [PRIME-MODE ] PAIRED_IDLE — Paired — keep Wireless debugging on and tap Activate
+> [11:47:46.174] GodMode [svc]: ✅ Paired — waiting for explicit ACTIVATE
+> [11:47:46.212] GodMode [svc]: Pairing service lost after success — expected, ignoring
+> [11:47:46.213] [PRIME-MODE ] Pairing service lost
+> [11:47:49.866] [T-STATE   ] MainActivity onResume running=false mode=
+> [11:47:54.480] [PRIME-MODE ] Master → true
+> [11:47:55.326] [PRIME-MODE ] BOOTSTRAPPING — Completing one-time Prime setup…
+> [11:47:55.327] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=true)
+> [11:47:55.336] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [11:47:55.338] [PRIME-MODE ] Connecting to Wireless debugging (attempt 1/3)
+> [11:47:55.933] [PRIME-MODE ] Completing Prime permission setup
+> [11:47:56.211] [PRIME-MODE ] Starting Prime engine
+> [11:47:57.666] [PRIME-MODE ] Shizuku-style start sent via 127.0.0.1:39327
+> [11:48:01.357] [PRIME-MODE ] PrimeServer alive ✅
+> [11:48:01.358] [PRIME-MODE ] Bootstrap confirmed ✅
+> [11:48:01.359] [PRIME-MODE ] CONNECTING — Applying performance lock…
+> [11:48:02.025] [PRIME-CLIENT] ( completed (22896 chars)
+> [11:48:02.175] [PRIME-CLIENT] ( completed (1586 chars)
+> [11:48:03.023] [PRIME-CLIENT] ( completed (37862 chars)
+> [11:48:03.220] [PRIME-CLIENT] ( completed (3900 chars)
+> [11:48:03.340] [PRIME-CLIENT] ( completed (100 chars)
+> [11:48:03.469] [PRIME-CLIENT] ( completed (160 chars)
+> [11:48:03.470] [PRIME-CAPS ] graphics=MODERN_CUSTOM verified=true · Modern GameManager custom scaling is already present and readable
+> [11:48:03.594] [PRIME-CLIENT] ( completed (19 chars)
+> [11:48:03.601] [PRIME-CAPS ] sdk=35 freeze=true compact=true graphics=MODERN_CUSTOM verified=true gamePerf=false ART=true
+> [11:48:03.717] [PRIME-CLIENT] ( completed (45 chars)
+> [11:48:03.909] [PRIME-CLIENT] ( completed (4474 chars)
+> [11:48:03.923] [PRIME-MODE ] Original device settings captured for exact restore
+> [11:48:04.044] [PRIME-CLIENT] ( completed (44 chars)
+> [11:48:04.234] [PRIME-CLIENT] ( completed (4502 chars)
+> [11:48:04.240] [PRIME] [11:48:03] [OK]  LanLink doze immunity → system-excidle,com.mediatek.ims,1001
+system-excidle,com.transsion.plat.appupdate
+> [11:48:04.510] [PRIME-CLIENT] ( completed (19 chars)
+> [11:48:04.630] [PRIME-CLIENT] ( completed (45 chars)
+> [11:48:04.630] [PRIME] [11:48:04] [OK]  Airplane shield on → cell,bluetooth,nfc,wimax
+> [11:48:04.782] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime Mode active
+> [11:48:04.784] [PRIME-GUARD] Runtime guardian started
+> [11:48:04.796] [PRIME-GUARD] Foreground guardian requested
+> [11:48:04.798] [PRIME-MODE ] Applied 2/2 requested settings
+> [11:48:04.799] [PRIME-MEM  ] Memory Director started
+> [11:48:04.921] [PRIME-CLIENT] ( completed (37 chars)
+> [11:48:04.923] [PRIME-GUARD] Foreground guardian service created
+> [11:48:05.177] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:48:06.899] [PRIME-CLIENT] ( completed (37 chars)
+> [11:48:08.618] [PRIME-CLIENT] ( completed (37 chars)
+> [11:48:09.617] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:48:10.583] [PRIME-CLIENT] ( completed (37 chars)
+> [11:48:12.009] [PRIME-MODE ] Wireless-debugging advertisement lost; PrimeServer health checked separately
+> [11:48:12.098] [PRIME-CLIENT] ( FAILED
+> [11:48:12.796] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:13.605] [PRIME-CLIENT] ( FAILED
+> [11:48:13.608] [PRIME-CLIENT] ( FAILED
+> [11:48:14.804] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:14.961] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:15.119] [PRIME-CLIENT] ( FAILED
+> [11:48:16.628] [PRIME-CLIENT] ( FAILED
+> [11:48:16.799] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:18.131] [PRIME-CLIENT] ( FAILED
+> [11:48:18.134] [PRIME-CLIENT] ( FAILED
+> [11:48:18.800] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:19.638] [PRIME-CLIENT] ( FAILED
+> [11:48:19.981] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:20.811] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:21.148] [PRIME-CLIENT] ( FAILED
+> [11:48:22.656] [PRIME-CLIENT] ( FAILED
+> [11:48:22.658] [PRIME-CLIENT] ( FAILED
+> [11:48:22.805] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:24.164] [PRIME-CLIENT] ( FAILED
+> [11:48:24.807] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:24.995] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:25.668] [PRIME-CLIENT] ( FAILED
+> [11:48:26.808] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:27.172] [PRIME-CLIENT] ( FAILED
+> [11:48:27.174] [PRIME-CLIENT] ( FAILED
+> [11:48:28.678] [PRIME-CLIENT] ( FAILED
+> [11:48:28.809] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:30.009] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:30.183] [PRIME-CLIENT] ( FAILED
+> [11:48:30.812] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:31.696] [PRIME-CLIENT] ( FAILED
+> [11:48:31.704] [PRIME-CLIENT] ( FAILED
+> [11:48:32.820] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:33.218] [PRIME-CLIENT] ( FAILED
+> [11:48:34.727] [PRIME-CLIENT] ( FAILED
+> [11:48:34.822] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:35.032] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:36.233] [PRIME-CLIENT] ( FAILED
+> [11:48:36.235] [PRIME-CLIENT] ( FAILED
+> [11:48:36.819] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:37.738] [PRIME-CLIENT] ( FAILED
+> [11:48:38.821] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:39.242] [PRIME-CLIENT] ( FAILED
+> [11:48:40.044] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:40.747] [PRIME-CLIENT] ( FAILED
+> [11:48:40.750] [PRIME-CLIENT] ( FAILED
+> [11:48:40.822] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:42.255] [PRIME-CLIENT] ( FAILED
+> [11:48:42.824] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:43.759] [PRIME-CLIENT] ( FAILED
+> [11:48:44.826] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:45.060] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:45.264] [PRIME-CLIENT] ( FAILED
+> [11:48:45.266] [PRIME-CLIENT] ( FAILED
+> [11:48:46.775] [PRIME-CLIENT] ( FAILED
+> [11:48:46.831] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:48.285] [PRIME-CLIENT] ( FAILED
+> [11:48:48.835] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:49.792] [PRIME-CLIENT] ( FAILED
+> [11:48:49.794] [PRIME-CLIENT] ( FAILED
+> [11:48:50.079] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:50.834] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:51.303] [PRIME-CLIENT] ( FAILED
+> [11:48:52.809] [PRIME-CLIENT] ( FAILED
+> [11:48:52.835] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:54.320] [PRIME-CLIENT] ( FAILED
+> [11:48:54.331] [PRIME-CLIENT] ( FAILED
+> [11:48:54.842] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:55.091] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:55.843] [PRIME-CLIENT] ( FAILED
+> [11:48:56.840] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:57.348] [PRIME-CLIENT] ( FAILED
+> [11:48:58.844] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:48:58.854] [PRIME-CLIENT] ( FAILED
+> [11:48:58.859] [PRIME-CLIENT] ( FAILED
+> [11:49:00.112] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:00.364] [PRIME-CLIENT] ( FAILED
+> [11:49:00.843] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:01.868] [PRIME-CLIENT] ( FAILED
+> [11:49:02.844] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:03.372] [PRIME-CLIENT] ( FAILED
+> [11:49:03.373] [PRIME-CLIENT] ( FAILED
+> [11:49:04.849] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:04.880] [PRIME-CLIENT] ( FAILED
+> [11:49:05.182] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:06.386] [PRIME-CLIENT] ( FAILED
+> [11:49:06.847] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:07.891] [PRIME-CLIENT] ( FAILED
+> [11:49:07.893] [PRIME-CLIENT] ( FAILED
+> [11:49:08.851] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:09.400] [PRIME-CLIENT] ( FAILED
+> [11:49:10.194] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:10.850] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:10.907] [PRIME-CLIENT] ( FAILED
+> [11:49:12.411] [PRIME-CLIENT] ( FAILED
+> [11:49:12.413] [PRIME-CLIENT] ( FAILED
+> [11:49:12.851] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:13.917] [PRIME-CLIENT] ( FAILED
+> [11:49:14.414] [T-STATE   ] MainActivity onPause running=false mode=
+> [11:49:14.852] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:15.216] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:15.424] [PRIME-CLIENT] ( FAILED
+> [11:49:15.749] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [11:49:15.750] [T-STATE   ] MainActivity onResume running=false mode=
+> [11:49:16.854] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:16.935] [PRIME-CLIENT] ( FAILED
+> [11:49:16.942] [PRIME-CLIENT] ( FAILED
+> [11:49:18.455] [PRIME-CLIENT] ( FAILED
+> [11:49:18.855] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:19.968] [PRIME-CLIENT] ( FAILED
+> [11:49:20.232] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:20.856] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:21.475] [PRIME-CLIENT] ( FAILED
+> [11:49:21.478] [PRIME-CLIENT] ( FAILED
+> [11:49:22.856] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:22.982] [PRIME-CLIENT] ( FAILED
+> [11:49:24.487] [PRIME-CLIENT] ( FAILED
+> [11:49:24.860] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:25.249] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:25.992] [PRIME-CLIENT] ( FAILED
+> [11:49:25.994] [PRIME-CLIENT] ( FAILED
+> [11:49:26.860] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:27.498] [PRIME-CLIENT] ( FAILED
+> [11:49:28.863] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:29.002] [PRIME-CLIENT] ( FAILED
+> [11:49:30.268] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:30.509] [PRIME-CLIENT] ( FAILED
+> [11:49:30.515] [PRIME-CLIENT] ( FAILED
+> [11:49:30.871] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:32.027] [PRIME-CLIENT] ( FAILED
+> [11:49:32.867] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:32.931] [EXPORT ] Match log chars=14027 ok=true; UDP timing trace chars=0 ok=true rawBytes=off
+> [11:49:33.541] [PRIME-CLIENT] ( FAILED
+> [11:49:34.868] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:35.053] [PRIME-CLIENT] ( FAILED
+> [11:49:35.055] [PRIME-CLIENT] ( FAILED
+> [11:49:35.313] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:36.561] [PRIME-CLIENT] ( FAILED
+> [11:49:36.870] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:37.451] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [11:49:37.457] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [11:49:37.458] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [11:49:37.461] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [11:49:38.077] [PRIME-CLIENT] ( FAILED
+> [11:49:38.877] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:39.606] [PRIME-CLIENT] ( FAILED
+> [11:49:39.609] [PRIME-CLIENT] ( FAILED
+> [11:49:40.355] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:40.879] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:41.117] [PRIME-CLIENT] ( FAILED
+> [11:49:42.622] [PRIME-CLIENT] ( FAILED
+> [11:49:42.880] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:43.564] [T-STATE   ] MainActivity onPause running=false mode=
+> [11:49:43.577] [NET-DISC  ] Discovery stopped
+> [11:49:44.131] [PRIME-CLIENT] ( FAILED
+> [11:49:44.137] [PRIME-CLIENT] ( FAILED
+> [11:49:44.888] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:45.395] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:45.649] [PRIME-CLIENT] ( FAILED
+> [11:49:46.884] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:47.156] [PRIME-CLIENT] ( FAILED
+> [11:49:47.991] [T-STATE   ] MainActivity onResume running=false mode=
+> [11:49:47.998] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [11:49:47.999] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [11:49:48.005] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [11:49:48.661] [PRIME-CLIENT] ( FAILED
+> [11:49:48.663] [PRIME-CLIENT] ( FAILED
+> [11:49:48.894] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:50.173] [PRIME-CLIENT] ( FAILED
+> [11:49:50.414] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:50.892] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:51.678] [PRIME-CLIENT] ( FAILED
+> [11:49:52.894] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:53.184] [PRIME-CLIENT] ( FAILED
+> [11:49:53.189] [PRIME-CLIENT] ( FAILED
+> [11:49:54.694] [PRIME-CLIENT] ( FAILED
+> [11:49:54.892] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:55.434] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:56.201] [PRIME-CLIENT] ( FAILED
+> [11:49:56.893] [PRIME-GUARD] Wireless debugging endpoint not visible — waiting, no ADB attempts
+> [11:49:57.707] [PRIME-CLIENT] ( FAILED
+> [11:49:57.716] [PRIME-CLIENT] ( FAILED
+> [11:49:57.720] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [11:49:57.721] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [11:49:57.731] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [11:49:57.742] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [11:49:58.875] [PRIME-MODE ] Connecting to Wireless debugging (attempt 1/3)
+> [11:49:58.879] [PRIME-MODE ] Connect port cached: 127.0.0.1:46745
+> [11:49:58.899] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [11:49:59.226] [PRIME-CLIENT] ( FAILED
+> [11:49:59.302] [PRIME-MODE ] Starting Prime engine
+> [11:50:00.094] [PRIME-MODE ] Shizuku-style start sent via 127.0.0.1:46745
+> [11:50:00.735] [PRIME-CLIENT] ( FAILED
+> [11:50:02.243] [PRIME-CLIENT] ( FAILED
+> [11:50:02.247] [PRIME-CLIENT] ( FAILED
+> [11:50:03.480] [PRIME-MODE ] PrimeServer alive ✅
+> [11:50:03.489] [PRIME-GUARD] Foreground guardian requested
+> [11:50:03.489] [PRIME-GUARD] Interactive action recovered PrimeServer
+> [11:50:03.634] [PRIME-CLIENT] ( completed (143 chars)
+> [11:50:03.756] [PRIME-CLIENT] ( completed (159 chars)
+> [11:50:03.869] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:03.877] [PRIME-CLIENT] ( completed (154 chars)
+> [11:50:04.000] [PRIME-CLIENT] ( completed (85 chars)
+> [11:50:04.000] [PRIME-GPU  ] Render scale 0.90 verified for next eFootball start
+> [11:50:04.121] [PRIME-CLIENT] ( completed (143 chars)
+> [11:50:04.245] [PRIME-CLIENT] ( completed (159 chars)
+> [11:50:04.369] [PRIME-CLIENT] ( completed (154 chars)
+> [11:50:04.490] [PRIME-CLIENT] ( completed (85 chars)
+> [11:50:04.490] [PRIME-GPU  ] Render scale 0.90 verified for next eFootball start
+> [11:50:04.491] [PRIME-GUARD] Re-applied saved render scale 0.90 verified=true
+> [11:50:04.491] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime Mode active · engine recovered
+> [11:50:04.491] [PRIME-GUARD] PrimeServer recovered without user action
+> [11:50:05.491] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:06.485] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:07.461] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:08.044] [NET-DISC  ] beacon send err: sendto failed: ENETUNREACH (Network is unreachable)
+> [11:50:08.197] [NET-DISC  ] Discovery stopped
+> [11:50:08.199] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [11:50:08.204] [PRIME-MODE ] Wireless-debugging advertisement lost; PrimeServer health checked separately
+> [11:50:09.188] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:10.809] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:11.053] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:12.680] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:14.299] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:15.298] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:16.267] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:17.986] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:19.704] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:19.951] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:21.572] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:23.193] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:24.192] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:25.060] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:26.789] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:26.955] [PRIME-CLIENT] ( completed (144 chars)
+> [11:50:27.081] [PRIME-CLIENT] ( completed (160 chars)
+> [11:50:27.212] [PRIME-CLIENT] ( completed (155 chars)
+> [11:50:27.335] [PRIME-CLIENT] ( completed (85 chars)
+> [11:50:27.336] [PRIME-GPU  ] Render scale 0.85 verified for next eFootball start
+> [11:50:28.412] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:28.663] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:30.382] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:32.001] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:32.997] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:33.968] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:35.597] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:37.343] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:37.602] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:38.337] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [11:50:38.339] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [11:50:38.343] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [11:50:39.254] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:40.874] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:41.761] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:42.629] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:44.250] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:45.865] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:46.113] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:47.837] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:48.144] [PRIME-MODE ] CONNECTING — Optimizing eFootball runtime…
+> [11:50:49.482] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:50.480] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:51.073] [PRIME-CLIENT] ( completed (28 chars)
+> [11:50:51.074] [PRIME-CPU  ] ART speed-profile optimization complete
+> [11:50:51.074] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime Mode active
+> [11:50:51.349] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:52.972] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:54.593] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:54.739] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:56.363] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:57.984] [PRIME-CLIENT] ( completed (37 chars)
+> [11:50:58.979] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:50:59.841] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:01.459] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:02.370] [NET-DISC  ] beacon send err: sendto failed: ENETUNREACH (Network is unreachable)
+> [11:51:03.199] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:03.445] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:03.476] [NET-DISC  ] Discovery stopped
+> [11:51:03.628] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [11:51:05.068] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:06.689] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:07.702] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:08.774] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:10.398] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:11.970] [T-STATE   ] MainActivity onPause running=false mode=
+> [11:51:12.121] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:12.383] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:12.787] [T-STATE   ] MainActivity onDestroy running=false mode=
+> [11:51:12.817] [PRIME] Service: app removed from recents — user radio state preserved
+> [11:51:14.012] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:14.967] [NET-DISC  ] UDP broadcast discovery initialised (replaces mDNS)
+> [11:51:14.993] [T-STATE   ] MainActivity onResume running=false mode=
+> [11:51:14.999] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [11:51:15.252] [STARTUP    ] GodModeManager.init ok
+> [11:51:15.253] [STARTUP    ] Prime alive check ok
+> [11:51:15.270] [PRIME-LADDER] App open — PrimeServer alive=true
+> [11:51:15.503] [PRIME-CLIENT] ( completed (19 chars)
+> [11:51:15.635] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:16.255] [PRIME-MODE ] Auto-connect: Wi-Fi enabled without opening Settings
+> [11:51:16.639] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:17.225] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [11:51:17.234] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [11:51:17.235] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [11:51:17.238] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [11:51:17.637] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:19.265] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:20.884] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:21.127] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:22.747] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:24.365] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:25.253] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:26.120] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:27.746] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:29.476] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:29.734] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:31.466] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:33.084] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:33.737] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [11:51:33.973] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:34.842] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:36.464] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:38.086] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:38.224] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:39.851] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:41.475] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:42.484] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:43.355] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:44.982] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:46.603] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:46.860] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:48.484] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:50.109] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:51.007] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:51.878] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:53.603] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:55.287] [NET-DISC  ] beacon send err: sendto failed: ENETUNREACH (Network is unreachable)
+> [11:51:55.347] [NET-DISC  ] Discovery stopped
+> [11:51:55.349] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [11:51:55.462] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:55.752] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:51:57.373] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:59.002] [PRIME-CLIENT] ( completed (37 chars)
+> [11:51:59.897] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:00.767] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:02.387] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:04.009] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:04.152] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:05.767] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:07.493] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:08.505] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:09.379] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:11.005] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:12.630] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:12.899] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:14.525] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:16.158] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:17.049] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:17.920] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:19.543] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:21.164] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:21.401] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:23.134] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:24.886] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:25.535] [NET-DISC  ] Binding discovery to wlan0#36 10.14.35.115/24
+> [11:52:25.536] [NET-DISC  ] Registered as "Infinix X6728B" on 10.14.35.115:17024
+> [11:52:25.540] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.14.35.115
+> [11:52:25.883] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:26.754] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:28.487] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:30.115] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:30.355] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:31.977] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:33.716] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:34.718] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:35.593] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:37.217] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:38.840] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:38.982] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:40.599] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:42.219] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:43.214] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:44.083] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:45.704] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:47.324] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:47.565] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:49.186] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:50.801] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:51.792] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:52.659] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:54.276] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:55.897] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:56.135] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:52:57.857] [PRIME-CLIENT] ( completed (37 chars)
+> [11:52:59.475] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:00.363] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:01.235] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:02.983] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:04.624] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:04.883] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:06.500] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:08.117] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:09.105] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:09.974] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:11.603] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:13.223] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:13.363] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:14.982] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:16.601] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:17.589] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:18.457] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:20.073] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:21.696] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:21.934] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:23.559] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:25.178] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:26.077] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:26.945] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:28.572] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:30.194] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:30.340] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:31.968] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:33.594] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:34.598] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:35.471] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:37.108] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:38.733] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:39.004] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:40.632] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:42.260] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:43.267] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:44.148] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:45.778] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:47.408] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:47.671] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:49.395] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:51.121] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:52.152] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:53.122] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:54.753] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:56.379] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:56.633] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:53:58.259] [PRIME-CLIENT] ( completed (37 chars)
+> [11:53:59.885] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:00.892] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:54:01.767] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:03.393] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:05.020] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:05.273] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:54:06.892] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:08.509] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:09.496] [PRIME-CLIENT] ( completed (1305 chars)
+> [11:54:09.723] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [11:54:10.360] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:11.977] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:13.604] [PRIME-CLIENT] ( completed (37 chars)
+> [11:54:13.877] [PRIME-CLIENT] ( completed (1305 chars)
