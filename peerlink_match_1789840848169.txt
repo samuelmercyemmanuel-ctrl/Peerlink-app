@@ -1,0 +1,1364 @@
+> [18:48:09.037] [NET-DISC  ] Peer discovered: Elijah @ 10.146.150.113 via beacon
+> [18:48:09.048] ════ Session started: session_1789840089032 ════
+> [18:48:09.048] [VPN-START ] PeerLink VPN starting
+> [18:48:09.052] [VPN-UNDER ] Locked LAN path wlan0#33 10.146.150.5/24 -> 10.146.150.113 (Android Wi-Fi Network)
+> [18:48:09.053] ✅ Fabricated IPs calculated:
+> [18:48:09.053]    My LAN: 10.146.150.5 (value=177378821) → My Fabricated: 197.210.53.1
+> [18:48:09.053]    Peer LAN: 10.146.150.113 (value=177378929) → Peer Fabricated: 197.210.53.2
+> [18:48:09.054] [VPN-START ] Per-app VPN: jp.konami.pesam only
+> [18:48:09.069] [VPN-START ] Interface established (IPv4 + IPv6)
+> [18:48:09.076] [VPN-UNDER ] mode=wifi_udp Underlying networks: WiFi:wlan0
+> [18:48:09.077] [VPN-START ] TUN detached to native backend
+> [18:48:09.090] [NATIVE/QOS] dscp4=ok dscp6=unsupported socketPriority=ok busyPoll=unsupported rxTimestamp=ok txTimestamp=ok
+> [18:48:09.091] [WIFI-TRUTH] tx_timestamping=enabled flags=SOFTWARE|TX_SCHED|TX_SOFTWARE|OPT_ID|OPT_TSONLY
+> [18:48:09.100] [VPN-UNDER ] Native socket bound to WiFi:wlan0
+> [18:48:09.103] [NATIVE/EVENT] backend started peer=10.146.150.113:17024 mtu=1400
+> [18:48:09.103] [NATIVE/LOG] dropped 1 deferred logs
+> [18:48:09.111] ✅ Fabricated IPs calculated:
+> [18:48:09.112]    My LAN: 10.146.150.5 (value=177378821) → My Fabricated: 197.210.53.1
+> [18:48:09.112]    Peer LAN: 10.146.150.113 (value=177378929) → Peer Fabricated: 197.210.53.2
+> [18:48:09.118] [ENGINE] Passthrough bridge mode: Kotlin TCP/UDP proxy only
+> [18:48:09.118] [ENGINE] Bridge TUN mode: blocking
+> [18:48:09.121] [TUN-READ] Loop started (blocking mode)
+> [18:48:09.121] [JITTER-DIAG] tunWriteLoop started (mode=blocking, priority=default)
+> [18:48:09.122] [VPN-UNDER ] Verifying bidirectional peer tunnel...
+> [18:48:09.124] [VPN-UNDER ] Bidirectional peer tunnel verified
+> [18:48:09.125] [MATCH] Session 061e27a4-6bc5-43dc-8cf9-9f8d211832f9 begun vs Elijah (10.146.150.113)
+> [18:48:09.133] [MATCH-CTRL] Peer match-control channel starting on UDP/17025
+> [18:48:09.134] [MATCH-AUTO] Started: T0=first 24-27pps; capture on 54B-tail or <9pps after 5:00
+> [18:48:09.176] [VPN-UNDER ] mode=wifi_udp Underlying networks: WiFi:wlan0
+> [18:48:09.179] [MATCH-UI  ] overlay=shown mode=WAITING
+> [18:48:09.177] [VPN-UNDER ] Verified startup path retained without redundant rebind
+> [18:48:09.237] [VPN-START ] PARTIAL_WAKE_LOCK acquired
+> [18:48:09.257] [VPN-START ] Background Wi-Fi performance lock requested (Android < 14)
+> [18:48:09.271] [MATCH-CTRL] Ready local=10.146.150.5:17025
+> [18:48:09.374] [VPN-START ] WIFI_MODE_FULL_LOW_LATENCY requested; effectiveness depends on foreground state and device support
+> [18:48:09.401] [VPN-START ] Native datapath active — passthrough bridge ready
+> [18:48:09.401] [VPN-TRACE ] UDP trace armed (save-only, stages=6, udp-only)
+> [18:48:09.401] [VPN-START ] Tunnel active — waiting for game traffic
+> [18:48:09.433] [T-STATE   ] Session state persisted for auto-restart (peer=10.146.150.113 local=10.146.150.5 mode=hotspot)
+> [18:48:09.538] [PRIME-CLIENT] ( completed (25 chars)
+> [18:48:09.539] [PRIME-RT  ] Stock non-root device — using safe URGENT_DISPLAY packet threads
+> [18:48:09.798] [🧨 BRIDGE-GAP-T0] gapMs=675 seq=0 missing=0 mode=bridge qTun=0 len=96
+> [18:48:09.907] [HOTSPOT   ] Found peer: Elijah
+> [18:48:11.251] [T-STATE   ] MainActivity onPause running=true mode=hotspot
+> [18:48:11.287] [NET-DISC  ] Discovery stopped
+> [18:48:11.411] [T-STATE   ] Active session preserved onPause — control-plane watchers kept alive
+> [18:48:11.524] [🧨 BRIDGE-GAP-T0] gapMs=1628 seq=0 missing=0 mode=bridge qTun=0 len=79
+> [18:48:11.899] [🧨 BRIDGE-GAP-T0] gapMs=164 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:12.289] [🧨 BRIDGE-GAP-T0] gapMs=350 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:12.743] [🧨 BRIDGE-GAP-T0] gapMs=408 seq=0 missing=0 mode=bridge qTun=0 len=48
+> [18:48:12.790] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:14.579] [NATIVE/LAT] rxWake wakes=8 packets=8 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:15.211] [🧨 BRIDGE-GAP-T0] gapMs=2468 seq=0 missing=0 mode=bridge qTun=0 len=59
+> [18:48:16.864] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:19.585] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:20.167] [🧨 BRIDGE-GAP-T0] gapMs=4952 seq=0 missing=0 mode=bridge qTun=0 len=48
+> [18:48:20.747] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:24.374] [🧨 BRIDGE-GAP-T0] gapMs=4207 seq=0 missing=0 mode=bridge qTun=0 len=62
+> [18:48:24.470] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=123 n=21 peakGame=0 peakControl=2 policy=game-first
+> [18:48:24.564] [🧨 BRIDGE-GAP-T0] gapMs=188 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:48:24.596] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:25.338] [🧨 BRIDGE-GAP-T0] gapMs=471 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:25.385] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:25.807] [🧨 BRIDGE-GAP-T0] gapMs=466 seq=0 missing=0 mode=bridge qTun=0 len=555
+> [18:48:26.342] [🧨 BRIDGE-GAP-T0] gapMs=535 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:27.181] [🧨 BRIDGE-GAP-T0] gapMs=173 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:48:28.177] [🧨 BRIDGE-GAP-T0] gapMs=326 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:28.689] [🧨 BRIDGE-GAP-T0] gapMs=381 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:29.490] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=52 n=209 peakGame=0 peakControl=4 policy=game-first
+> [18:48:29.718] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:30.019] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:30.429] [🧨 BRIDGE-GAP-T0] gapMs=157 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:30.670] [🧨 BRIDGE-GAP-T0] gapMs=240 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:31.122] [🧨 BRIDGE-GAP-T0] gapMs=368 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:32.030] [🧨 BRIDGE-GAP-T0] gapMs=863 seq=0 missing=0 mode=bridge qTun=1 len=40
+> [18:48:32.379] [🧨 BRIDGE-GAP-T0] gapMs=347 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:32.673] [🧨 BRIDGE-GAP-T0] gapMs=291 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:33.110] [🧨 BRIDGE-GAP-T0] gapMs=153 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:48:34.033] [🧨 BRIDGE-GAP-T0] gapMs=244 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:34.255] [🧨 BRIDGE-GAP-T0] gapMs=220 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:34.490] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=80 n=649 peakGame=0 peakControl=6 policy=game-first
+> [18:48:34.653] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:34.771] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:35.802] [🧨 BRIDGE-GAP-T0] gapMs=588 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:36.677] [🧨 BRIDGE-GAP-T0] gapMs=687 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:36.890] [🧨 BRIDGE-GAP-T0] gapMs=212 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:48:37.865] [🧨 BRIDGE-GAP-T0] gapMs=973 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:38.330] [🧨 BRIDGE-GAP-T0] gapMs=465 seq=0 missing=0 mode=bridge qTun=0 len=376
+> [18:48:39.167] [🧨 BRIDGE-GAP-T0] gapMs=350 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:39.292] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:39.639] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=76 n=496 peakGame=0 peakControl=8 policy=game-first
+> [18:48:39.682] [🧨 BRIDGE-GAP-T0] gapMs=223 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:39.843] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:40.290] [🧨 BRIDGE-GAP-T0] gapMs=607 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:43.398] [🧨 BRIDGE-GAP-T0] gapMs=3053 seq=0 missing=0 mode=bridge qTun=0 len=376
+> [18:48:43.926] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:44.030] [🧨 BRIDGE-GAP-T0] gapMs=499 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:44.527] [🧨 BRIDGE-GAP-T0] gapMs=489 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:44.868] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:45.265] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=62 n=30 peakGame=0 peakControl=2 policy=game-first
+> [18:48:45.306] [🧨 BRIDGE-GAP-T0] gapMs=775 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:45.522] [🧨 BRIDGE-GAP-T0] gapMs=215 seq=0 missing=0 mode=bridge qTun=0 len=79
+> [18:48:45.798] [🧨 BRIDGE-GAP-T0] gapMs=181 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:45.986] [🧨 BRIDGE-GAP-T0] gapMs=186 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:46.384] [🧨 BRIDGE-GAP-T0] gapMs=383 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:46.607] [🧨 BRIDGE-GAP-T0] gapMs=180 seq=0 missing=0 mode=bridge qTun=0 len=73
+> [18:48:47.766] [🧨 BRIDGE-GAP-T0] gapMs=224 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:48:48.605] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:49.016] [🧨 BRIDGE-GAP-T0] gapMs=1245 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:49.355] [🧨 BRIDGE-GAP-T0] gapMs=284 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:49.928] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:50.612] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=127 n=98 peakGame=0 peakControl=3 policy=game-first
+> [18:48:50.613] [🧨 BRIDGE-GAP-T0] gapMs=1109 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:48:53.413] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:48:54.997] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:48:57.362] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:00.011] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:01.190] [🧨 BRIDGE-GAP-T0] gapMs=10577 seq=0 missing=0 mode=bridge qTun=0 len=76
+> [18:49:02.039] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:05.037] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:06.196] [🧨 BRIDGE-GAP-T0] gapMs=5003 seq=0 missing=0 mode=bridge qTun=0 len=76
+> [18:49:06.627] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=144 n=2 peakGame=0 peakControl=1 policy=game-first
+> [18:49:06.636] [🧨 BRIDGE-GAP-T0] gapMs=437 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:49:06.825] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:08.194] [🧨 BRIDGE-GAP-T0] gapMs=1313 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:10.058] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:10.504] [🧨 BRIDGE-GAP-T0] gapMs=2180 seq=0 missing=0 mode=bridge qTun=0 len=64
+> [18:49:10.784] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:10.930] [🧨 BRIDGE-GAP-T0] gapMs=172 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:14.186] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=156 n=27 peakGame=0 peakControl=1 policy=game-first
+> [18:49:14.187] [🧨 BRIDGE-GAP-T0] gapMs=3254 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:15.101] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:15.588] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:18.260] [🧨 BRIDGE-GAP-T0] gapMs=3935 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:18.514] [🧨 BRIDGE-GAP-T0] gapMs=238 seq=0 missing=0 mode=bridge qTun=0 len=376
+> [18:49:18.882] [🧨 BRIDGE-GAP-T0] gapMs=233 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:49:19.529] [🧨 BRIDGE-GAP-T0] gapMs=642 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:49:19.634] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:20.112] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:20.403] [🧨 BRIDGE-GAP-T0] gapMs=747 seq=0 missing=0 mode=bridge qTun=1 len=40
+> [18:49:20.402] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=328 n=34 peakGame=0 peakControl=2 policy=game-first
+> [18:49:20.915] [🧨 BRIDGE-GAP-T0] gapMs=275 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:21.569] [🧨 BRIDGE-GAP-T0] gapMs=493 seq=0 missing=0 mode=bridge qTun=0 len=64
+> [18:49:22.247] [🧨 BRIDGE-GAP-T0] gapMs=512 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:22.410] [🧨 BRIDGE-GAP-T0] gapMs=160 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:22.617] [🧨 BRIDGE-GAP-T0] gapMs=207 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:49:22.952] [🧨 BRIDGE-GAP-T0] gapMs=317 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:23.120] [🧨 BRIDGE-GAP-T0] gapMs=166 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:23.278] [🧨 BRIDGE-GAP-T0] gapMs=156 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:23.647] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:24.002] [🧨 BRIDGE-GAP-T0] gapMs=443 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:24.747] [🧨 BRIDGE-GAP-T0] gapMs=591 seq=0 missing=0 mode=bridge qTun=0 len=64
+> [18:49:25.207] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:25.469] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=186 n=127 peakGame=0 peakControl=6 policy=game-first
+> [18:49:25.511] [🧨 BRIDGE-GAP-T0] gapMs=644 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:27.697] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:27.959] [🧨 BRIDGE-GAP-T0] gapMs=2446 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:49:28.679] [🧨 BRIDGE-GAP-T0] gapMs=715 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:29.055] [🧨 BRIDGE-GAP-T0] gapMs=376 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:49:29.719] [🧨 BRIDGE-GAP-T0] gapMs=660 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:30.276] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:31.616] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:34.708] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=166 n=10 peakGame=0 peakControl=1 policy=game-first
+> [18:49:34.710] [🧨 BRIDGE-GAP-T0] gapMs=4990 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:35.307] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:36.304] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:40.328] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:41.104] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:44.994] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:45.333] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:49.683] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:50.344] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:51.926] [🧨 BRIDGE-GAP-T0] gapMs=17174 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:49:51.932] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=139 n=4 peakGame=0 peakControl=1 policy=game-first
+> [18:49:53.086] [🧨 BRIDGE-GAP-T0] gapMs=1157 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:53.558] [🧨 BRIDGE-GAP-T0] gapMs=471 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:49:54.086] [🧨 BRIDGE-GAP-T0] gapMs=314 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:54.379] [🧨 BRIDGE-GAP-T0] gapMs=290 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:54.392] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:54.922] [🧨 BRIDGE-GAP-T0] gapMs=271 seq=0 missing=0 mode=bridge qTun=0 len=168
+> [18:49:55.354] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:49:55.673] [🧨 BRIDGE-GAP-T0] gapMs=163 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:56.018] [🧨 BRIDGE-GAP-T0] gapMs=222 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [18:49:57.193] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=163 n=75 peakGame=0 peakControl=2 policy=game-first
+> [18:49:57.195] [🧨 BRIDGE-GAP-T0] gapMs=708 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:49:57.600] [🧨 BRIDGE-GAP-T0] gapMs=378 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:49:57.795] [🧨 BRIDGE-GAP-T0] gapMs=192 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:49:58.017] [🧨 BRIDGE-GAP-T0] gapMs=220 seq=0 missing=0 mode=bridge qTun=0 len=75
+> [18:49:58.564] [🧨 BRIDGE-GAP-T0] gapMs=545 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:49:58.860] [🧨 BRIDGE-GAP-T0] gapMs=293 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [18:49:59.064] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:49:59.196] [🧨 BRIDGE-GAP-T0] gapMs=333 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:49:59.493] [🧨 BRIDGE-GAP-T0] gapMs=290 seq=0 missing=0 mode=bridge qTun=1 len=40
+> [18:50:00.377] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:00.766] [🧨 BRIDGE-GAP-T0] gapMs=300 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:01.127] [🧨 BRIDGE-GAP-T0] gapMs=354 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:01.510] [🧨 BRIDGE-GAP-T0] gapMs=174 seq=0 missing=0 mode=bridge qTun=0 len=393
+> [18:50:01.723] [🧨 BRIDGE-GAP-T0] gapMs=186 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:02.243] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=183 n=400 peakGame=0 peakControl=3 policy=game-first
+> [18:50:03.034] [🧨 BRIDGE-GAP-T0] gapMs=222 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:03.349] [🧨 BRIDGE-GAP-T0] gapMs=233 seq=0 missing=0 mode=bridge qTun=0 len=75
+> [18:50:03.350] [ðŸ” DNS-QUERY] Watching STUN DNS: 'pesam.stun.service.konami.net' (txn=0xa68f)
+> [18:50:03.532] [🧨 BRIDGE-GAP-T0] gapMs=183 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:50:03.752] [🧨 BRIDGE-GAP-T0] gapMs=219 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:03.821] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:04.044] [ðŸ“¥ DNS-RESPONSE] Processing response for 'pesam.stun.service.konami.net' (txn=0xa68f)
+> [18:50:04.046] [âœ… DNS-LEARNED] STUN IPv6: 2406:da14:157c:fb01:e103:c981:a320:f66e (from 'pesam.stun.service.konami.net')
+> [18:50:04.247] [🧨 BRIDGE-GAP-T0] gapMs=167 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:50:04.431] [🧨 BRIDGE-GAP-T0] gapMs=178 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:05.219] [🧨 BRIDGE-GAP-T0] gapMs=201 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:50:05.409] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:05.635] [🧨 BRIDGE-GAP-T0] gapMs=411 seq=0 missing=0 mode=bridge qTun=0 len=168
+> [18:50:06.048] [🧨 BRIDGE-GAP-T0] gapMs=259 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:50:06.370] [🧨 BRIDGE-GAP-T0] gapMs=168 seq=0 missing=0 mode=bridge qTun=0 len=68
+> [18:50:07.253] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=178 n=195 peakGame=0 peakControl=4 policy=game-first
+> [18:50:07.300] [🧨 BRIDGE-GAP-T0] gapMs=152 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [18:50:08.533] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:08.717] [🧨 BRIDGE-GAP-T0] gapMs=1040 seq=0 missing=0 mode=bridge qTun=0 len=371
+> [18:50:09.455] [🧨 BRIDGE-GAP-T0] gapMs=738 seq=0 missing=0 mode=bridge qTun=0 len=75
+> [18:50:09.457] [ðŸ” DNS-QUERY] Watching STUN DNS: 'pesam.stun.service.konami.net' (txn=0x4ddd)
+> [18:50:10.248] [🧨 BRIDGE-GAP-T0] gapMs=791 seq=0 missing=0 mode=bridge qTun=0 len=48
+> [18:50:10.446] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:12.559] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=164 n=9 peakGame=0 peakControl=2 policy=game-first
+> [18:50:12.568] [🧨 BRIDGE-GAP-T0] gapMs=2320 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [18:50:12.722] [🧨 BRIDGE-GAP-T0] gapMs=151 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:12.967] [🧨 BRIDGE-GAP-T0] gapMs=235 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [18:50:13.219] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:13.249] [🧨 BRIDGE-GAP-T0] gapMs=175 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:50:13.593] [🧨 BRIDGE-GAP-T0] gapMs=341 seq=0 missing=0 mode=bridge qTun=0 len=94
+> [18:50:14.167] [🧨 BRIDGE-GAP-T0] gapMs=183 seq=0 missing=0 mode=bridge qTun=0 len=92
+> [18:50:14.462] [ðŸ” DNS-QUERY] Watching STUN DNS: 'pesam.stun.service.konami.net' (txn=0x4ddd)
+> [18:50:14.590] [ðŸ“¥ DNS-RESPONSE] Processing response for 'pesam.stun.service.konami.net' (txn=0x4ddd)
+> [18:50:14.595] [âœ… DNS-LEARNED] STUN IPv4: 35.76.243.83 (from 'pesam.stun.service.konami.net')
+> [18:50:15.091] [🧨 BRIDGE-GAP-T0] gapMs=198 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:50:15.454] [🧨 BRIDGE-GAP-T0] gapMs=358 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:50:15.494] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:15.875] [🧨 BRIDGE-GAP-T0] gapMs=415 seq=0 missing=0 mode=bridge qTun=0 len=97
+> [18:50:17.590] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=158 n=70 peakGame=0 peakControl=2 policy=game-first
+> [18:50:17.605] STUN[T1:Konami]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:17.611] STUN[T3:Bare]: 197.210.53.1:28323 from 54.150.169.24:3478 → 10.146.150.5:28323
+> [18:50:17.613] STUN[T3:Bare]: 197.210.53.1:28323 from 54.150.169.24:3479 → 10.146.150.5:28323
+> [18:50:17.616] STUN[T4:ChgBoth]: 197.210.53.1:28323 from 54.150.169.24:3479 → 10.146.150.5:28323
+> [18:50:17.619] STUN[T6:ChgPort]: 197.210.53.1:28323 from 35.76.243.83:3479 → 10.146.150.5:28323
+> [18:50:17.892] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:20.522] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:22.584] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:22.709] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:22.713] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=120 n=90 peakGame=0 peakControl=2 policy=game-first
+> [18:50:23.780] [🧨 BRIDGE-GAP-T0] gapMs=997 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:50:24.090] [🧨 BRIDGE-GAP-T0] gapMs=310 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:50:24.985] [🧨 BRIDGE-GAP-T0] gapMs=845 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:50:25.188] [🧨 BRIDGE-GAP-T0] gapMs=194 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [18:50:25.353] [🧨 BRIDGE-GAP-T0] gapMs=163 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:50:25.545] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:25.697] [🧨 BRIDGE-GAP-T0] gapMs=345 seq=0 missing=0 mode=bridge qTun=0 len=168
+> [18:50:26.166] [🧨 BRIDGE-GAP-T0] gapMs=157 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:50:26.408] [🧨 BRIDGE-GAP-T0] gapMs=241 seq=0 missing=0 mode=bridge qTun=0 len=128
+> [18:50:26.777] [🧨 BRIDGE-GAP-T0] gapMs=181 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [18:50:27.282] [🧨 BRIDGE-GAP-T0] gapMs=188 seq=0 missing=0 mode=bridge qTun=0 len=30
+> [18:50:27.358] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:27.731] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:27.733] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=137 n=43 peakGame=0 peakControl=2 policy=game-first
+> [18:50:30.597] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:31.380] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:32.744] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=175 n=94 peakGame=0 peakControl=2 policy=game-first
+> [18:50:32.763] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:35.328] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:35.612] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:37.783] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=162 n=72 peakGame=0 peakControl=2 policy=game-first
+> [18:50:37.786] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:40.091] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:40.632] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:42.813] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:42.816] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=198 n=99 peakGame=0 peakControl=2 policy=game-first
+> [18:50:44.132] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:45.645] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:47.843] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=171 n=79 peakGame=0 peakControl=2 policy=game-first
+> [18:50:47.843] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:48.071] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:50.670] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:52.768] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:52.867] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:52.870] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=181 n=96 peakGame=0 peakControl=3 policy=game-first
+> [18:50:55.680] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:50:57.449] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:50:57.894] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:50:57.897] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=141 n=82 peakGame=0 peakControl=2 policy=game-first
+> [18:51:00.711] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:01.250] [🧨 BRIDGE-GAP-T0] gapMs=357 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:01.453] [🧨 BRIDGE-GAP-T0] gapMs=202 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:51:02.137] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:02.918] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:02.921] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=175 n=64 peakGame=0 peakControl=5 policy=game-first
+> [18:51:03.142] [🧨 BRIDGE-GAP-T0] gapMs=1687 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:03.454] [🧨 BRIDGE-GAP-T0] gapMs=312 seq=0 missing=0 mode=bridge qTun=0 len=71
+> [18:51:03.853] [🧨 BRIDGE-GAP-T0] gapMs=396 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:05.722] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:05.924] [🧨 BRIDGE-GAP-T0] gapMs=2063 seq=0 missing=0 mode=bridge qTun=0 len=71
+> [18:51:06.832] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:07.952] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:07.954] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=302 n=9 peakGame=0 peakControl=2 policy=game-first
+> [18:51:08.864] [🧨 BRIDGE-GAP-T0] gapMs=2934 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:09.723] [🧨 BRIDGE-GAP-T0] gapMs=806 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:10.732] [🧨 BRIDGE-GAP-T0] gapMs=1008 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:10.744] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:11.516] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:12.744] [🧨 BRIDGE-GAP-T0] gapMs=2011 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:12.965] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:12.969] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=109 n=3 peakGame=0 peakControl=1 policy=game-first
+> [18:51:13.868] [🧨 BRIDGE-GAP-T0] gapMs=1124 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:15.328] [🧨 BRIDGE-GAP-T0] gapMs=1461 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:15.694] [🧨 BRIDGE-GAP-T0] gapMs=356 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:15.752] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:16.004] [🧨 BRIDGE-GAP-T0] gapMs=310 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [18:51:16.174] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:16.357] [🧨 BRIDGE-GAP-T0] gapMs=352 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:16.654] [🧨 BRIDGE-GAP-T0] gapMs=178 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:16.807] [🧨 BRIDGE-GAP-T0] gapMs=152 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:17.013] [🧨 BRIDGE-GAP-T0] gapMs=206 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:17.275] [🧨 BRIDGE-GAP-T0] gapMs=261 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:17.695] [🧨 BRIDGE-GAP-T0] gapMs=286 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:17.975] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=97 n=16 peakGame=0 peakControl=2 policy=game-first
+> [18:51:17.983] [🧨 BRIDGE-GAP-T0] gapMs=287 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:17.990] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:18.799] [🧨 BRIDGE-GAP-T0] gapMs=683 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:18.966] [🧨 BRIDGE-GAP-T0] gapMs=167 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:19.132] [🧨 BRIDGE-GAP-T0] gapMs=165 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:51:19.690] [🧨 BRIDGE-GAP-T0] gapMs=334 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:19.889] [🧨 BRIDGE-GAP-T0] gapMs=199 seq=0 missing=0 mode=bridge qTun=0 len=82
+> [18:51:20.054] [🧨 BRIDGE-GAP-T0] gapMs=164 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:20.635] [🧨 BRIDGE-GAP-T0] gapMs=401 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:20.816] [🧨 BRIDGE-GAP-T0] gapMs=181 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [18:51:20.817] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:20.829] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:21.231] [🧨 BRIDGE-GAP-T0] gapMs=159 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:21.479] [🧨 BRIDGE-GAP-T0] gapMs=248 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:21.916] [🧨 BRIDGE-GAP-T0] gapMs=382 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:22.089] [🧨 BRIDGE-GAP-T0] gapMs=173 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:22.101] [âŒ UDP-IN] CancelledKeyException: unknown
+> [18:51:22.457] [🧨 BRIDGE-GAP-T0] gapMs=264 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:22.837] [🧨 BRIDGE-GAP-T0] gapMs=379 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:23.008] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:23.010] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=110 n=44 peakGame=0 peakControl=1 policy=game-first
+> [18:51:23.289] [🧨 BRIDGE-GAP-T0] gapMs=166 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:51:23.441] [🧨 BRIDGE-GAP-T0] gapMs=151 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:23.953] [🧨 BRIDGE-GAP-T0] gapMs=302 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:51:24.391] [🧨 BRIDGE-GAP-T0] gapMs=213 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:51:24.604] [🧨 BRIDGE-GAP-T0] gapMs=211 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:24.950] [🧨 BRIDGE-GAP-T0] gapMs=338 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:25.324] [🧨 BRIDGE-GAP-T0] gapMs=182 seq=0 missing=0 mode=bridge qTun=0 len=126
+> [18:51:25.492] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:25.566] [🧨 BRIDGE-GAP-T0] gapMs=238 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:25.748] [NATIVE/EVENT] Gameplay flow observed: local=28323 remote=32856 source=IPv4-TUNNEL-OUT
+> [18:51:25.748] [🧨 BRIDGE-GAP-T0] gapMs=176 seq=0 missing=0 mode=bridge qTun=0 len=76
+> [18:51:25.749] [ðŸŽ® GAME-IP] Detected game IPv4 source: 10.146.150.5
+> [18:51:26.264] [NATIVE/LAT] rxWake wakes=9 packets=9 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:26.268] [🧨 BRIDGE-GAP-T0] gapMs=410 seq=0 missing=0 mode=bridge qTun=0 len=76
+> [18:51:27.641] [🧨 BRIDGE-GAP-T0] gapMs=1373 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:51:28.037] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:28.039] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=126 n=56 peakGame=1 peakControl=2 policy=game-first
+> [18:51:29.369] [🧨 BRIDGE-GAP-T0] gapMs=1577 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:30.150] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:30.375] [🧨 BRIDGE-GAP-T0] gapMs=1005 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:31.323] [🧨 BRIDGE-GAP-T0] gapMs=947 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [18:51:31.384] [NATIVE/LAT] rxWake wakes=20 packets=20 maxBatch=1 delayedWakes=0 maxKernelToUserMs=4 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:31.387] [NATIVE/LAT] localProc maxMs=0 avgMs=0 n=13 (T0->wire; lower=smoother)
+> [18:51:32.390] [🧨 BRIDGE-GAP-T0] gapMs=1064 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:33.054] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:33.055] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=106 n=5 peakGame=1 peakControl=1 policy=game-first
+> [18:51:34.826] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:36.328] [🧨 BRIDGE-GAP-T0] gapMs=3937 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [18:51:36.398] [NATIVE/LAT] rxWake wakes=11 packets=11 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:36.399] [NATIVE/LAT] localProc maxMs=0 avgMs=0 n=2 (T0->wire; lower=smoother)
+> [18:51:36.519] [🧨 BRIDGE-GAP-T0] gapMs=187 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:37.577] [🧨 BRIDGE-GAP-T0] gapMs=1057 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:38.068] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:38.071] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=106 n=48 peakGame=1 peakControl=1 policy=game-first
+> [18:51:39.006] [🧨 BRIDGE-GAP-T0] gapMs=1427 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:51:39.487] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:40.310] [MATCH] Match epoch 0 started at 1789840300309
+> [18:51:40.313] [MATCH-AUTO] GAMEPLAY_T0 detected pps=26 direction=OUTBOUND out=26 in=26
+> [18:51:40.369] [MATCH-ROLE] H/A selection requested
+> [18:51:40.461] [PRIME-CLIENT] ip completed (56 chars)
+> [18:51:40.466] [MATCH-NET ] topology=HOTSPOT_OWNER iface=wlan0
+> [18:51:41.331] [🧨 BRIDGE-GAP-T0] gapMs=2324 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [18:51:41.407] [NATIVE/LAT] rxWake wakes=130 packets=130 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:41.411] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=130 (T0->wire; lower=smoother)
+> [18:51:41.584] [🧨 BRIDGE-GAP-T0] gapMs=249 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:42.598] [🧨 BRIDGE-GAP-T0] gapMs=1012 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:43.082] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:43.085] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=107 n=135 peakGame=1 peakControl=1 policy=game-first
+> [18:51:43.945] [MATCH-ROLE] Local tentative side=HOME
+> [18:51:44.158] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:44.615] [🧨 BRIDGE-GAP-T0] gapMs=2016 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:45.639] [🧨 BRIDGE-GAP-T0] gapMs=1023 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:46.335] [🧨 BRIDGE-GAP-T0] gapMs=695 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [18:51:46.412] [NATIVE/LAT] rxWake wakes=133 packets=133 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:46.414] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:51:47.752] [🧨 BRIDGE-GAP-T0] gapMs=1413 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:48.082] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:48.125] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=117 n=139 peakGame=1 peakControl=1 policy=game-first
+> [18:51:48.807] [🧨 BRIDGE-GAP-T0] gapMs=1055 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:48.832] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:48.932] [MATCH-ROLE] Locked complementary sides: local=HOME peer=AWAY
+> [18:51:49.418] [🧨 BRIDGE-GAP-T0] gapMs=610 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:51.346] [🧨 BRIDGE-GAP-T0] gapMs=1635 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [18:51:51.413] [NATIVE/LAT] rxWake wakes=132 packets=132 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:51.415] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:51:53.094] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:53.147] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=127 n=142 peakGame=1 peakControl=2 policy=game-first
+> [18:51:53.496] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:53.597] [🧨 BRIDGE-GAP-T0] gapMs=2248 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:51:54.219] [🧨 BRIDGE-GAP-T0] gapMs=216 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:54.510] [🧨 BRIDGE-GAP-T0] gapMs=198 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:55.446] [🧨 BRIDGE-GAP-T0] gapMs=657 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:51:56.351] [🧨 BRIDGE-GAP-T0] gapMs=904 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [18:51:56.427] [NATIVE/LAT] rxWake wakes=130 packets=130 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:51:56.430] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=135 (T0->wire; lower=smoother)
+> [18:51:56.846] [🧨 BRIDGE-GAP-T0] gapMs=376 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:51:57.004] [🧨 BRIDGE-GAP-T0] gapMs=156 seq=0 missing=0 mode=bridge qTun=0 len=128
+> [18:51:58.050] [🧨 BRIDGE-GAP-T0] gapMs=679 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:51:58.107] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:58.161] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:51:58.167] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=120 n=189 peakGame=1 peakControl=2 policy=game-first
+> [18:51:58.332] [🧨 BRIDGE-GAP-T0] gapMs=223 seq=0 missing=0 mode=bridge qTun=0 len=487
+> [18:51:58.711] [🧨 BRIDGE-GAP-T0] gapMs=156 seq=0 missing=0 mode=bridge qTun=0 len=92
+> [18:51:59.158] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:51:59.972] [🧨 BRIDGE-GAP-T0] gapMs=166 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [18:52:01.431] [NATIVE/LAT] rxWake wakes=130 packets=130 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:01.433] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=128 (T0->wire; lower=smoother)
+> [18:52:02.816] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:03.169] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=126 n=242 peakGame=1 peakControl=2 policy=game-first
+> [18:52:04.169] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:06.445] [NATIVE/LAT] rxWake wakes=130 packets=130 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:06.447] [NATIVE/LAT] localProc maxMs=3 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:07.476] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:08.175] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=125 n=220 peakGame=1 peakControl=2 policy=game-first
+> [18:52:09.180] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:09.842] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:11.453] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:11.454] [NATIVE/LAT] rxWake wakes=130 packets=131 maxBatch=2 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:12.143] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:13.180] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=103 n=218 peakGame=1 peakControl=1 policy=game-first
+> [18:52:14.850] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:16.460] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:16.464] [NATIVE/LAT] rxWake wakes=128 packets=128 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:16.805] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:18.184] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=105 n=196 peakGame=1 peakControl=1 policy=game-first
+> [18:52:19.860] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:20.361] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:21.448] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:21.465] [NATIVE/LAT] rxWake wakes=129 packets=129 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:21.474] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:23.213] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=93 n=179 peakGame=1 peakControl=2 policy=game-first
+> [18:52:25.369] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:26.108] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:26.475] [NATIVE/LAT] rxWake wakes=131 packets=131 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:26.483] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:28.213] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=101 n=214 peakGame=1 peakControl=2 policy=game-first
+> [18:52:30.376] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:30.763] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:31.200] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:31.485] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:31.492] [NATIVE/LAT] rxWake wakes=121 packets=121 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:33.233] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=86 n=216 peakGame=1 peakControl=2 policy=game-first
+> [18:52:35.416] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:36.209] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:36.494] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:36.497] [NATIVE/LAT] rxWake wakes=129 packets=129 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:38.258] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=102 n=214 peakGame=1 peakControl=1 policy=game-first
+> [18:52:40.073] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:41.216] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:41.313] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:41.510] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=135 (T0->wire; lower=smoother)
+> [18:52:41.511] [NATIVE/LAT] rxWake wakes=129 packets=129 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:43.276] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=104 n=216 peakGame=1 peakControl=2 policy=game-first
+> [18:52:44.743] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:46.328] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:46.532] [NATIVE/LAT] rxWake wakes=127 packets=127 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:46.533] [NATIVE/LAT] localProc maxMs=2 avgMs=0 n=135 (T0->wire; lower=smoother)
+> [18:52:48.299] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=124 n=214 peakGame=1 peakControl=3 policy=game-first
+> [18:52:49.384] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:51.333] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:51.382] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:51.540] [NATIVE/LAT] rxWake wakes=128 packets=128 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:51.542] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:53.300] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=83 n=214 peakGame=1 peakControl=2 policy=game-first
+> [18:52:54.027] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:52:56.385] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:52:56.551] [NATIVE/LAT] rxWake wakes=127 packets=127 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:52:56.552] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=134 (T0->wire; lower=smoother)
+> [18:52:58.304] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=81 n=215 peakGame=1 peakControl=2 policy=game-first
+> [18:52:58.687] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:01.378] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:01.564] [NATIVE/LAT] localProc maxMs=3 avgMs=0 n=135 (T0->wire; lower=smoother)
+> [18:53:01.568] [NATIVE/LAT] rxWake wakes=129 packets=129 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:03.308] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=105 n=222 peakGame=1 peakControl=1 policy=game-first
+> [18:53:03.346] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:06.394] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:06.565] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:06.573] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:08.007] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:08.329] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=111 n=206 peakGame=1 peakControl=3 policy=game-first
+> [18:53:09.056] [🧨 BRIDGE-GAP-T0] gapMs=1831 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:53:09.353] [🧨 BRIDGE-GAP-T0] gapMs=295 seq=0 missing=0 mode=bridge qTun=0 len=71
+> [18:53:09.839] [🧨 BRIDGE-GAP-T0] gapMs=319 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:53:10.318] [🧨 BRIDGE-GAP-T0] gapMs=309 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:53:10.672] [🧨 BRIDGE-GAP-T0] gapMs=294 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:53:11.397] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:11.539] [🧨 BRIDGE-GAP-T0] gapMs=865 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:53:11.564] [NATIVE/LAT] localProc maxMs=6 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:11.581] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:12.664] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:13.336] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=90 n=165 peakGame=1 peakControl=3 policy=game-first
+> [18:53:13.352] [🧨 BRIDGE-GAP-T0] gapMs=1813 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:53:13.708] [🧨 BRIDGE-GAP-T0] gapMs=355 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:53:14.897] [🧨 BRIDGE-GAP-T0] gapMs=1189 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:15.416] [🧨 BRIDGE-GAP-T0] gapMs=408 seq=0 missing=0 mode=bridge qTun=0 len=179
+> [18:53:16.408] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:16.580] [NATIVE/LAT] rxWake wakes=127 packets=137 maxBatch=4 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:16.582] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:53:17.322] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:18.382] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=89 n=145 peakGame=4 peakControl=1 policy=game-first
+> [18:53:19.896] [🧨 BRIDGE-GAP-T0] gapMs=4481 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:20.453] [🧨 BRIDGE-GAP-T0] gapMs=445 seq=0 missing=0 mode=bridge qTun=0 len=148
+> [18:53:21.416] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:21.587] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:21.589] [NATIVE/LAT] localProc maxMs=10 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:21.962] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:23.407] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=69 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:53:24.897] [🧨 BRIDGE-GAP-T0] gapMs=4444 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:25.490] [🧨 BRIDGE-GAP-T0] gapMs=482 seq=0 missing=0 mode=bridge qTun=0 len=167
+> [18:53:26.423] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:26.590] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:26.593] [NATIVE/LAT] localProc maxMs=12 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:26.612] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:27.768] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:28.386] [🧨 BRIDGE-GAP-T0] gapMs=2895 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:53:28.441] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=132 n=144 peakGame=1 peakControl=1 policy=game-first
+> [18:53:28.591] [🧨 BRIDGE-GAP-T0] gapMs=205 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:53:28.762] [🧨 BRIDGE-GAP-T0] gapMs=168 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:53:29.430] [🧨 BRIDGE-GAP-T0] gapMs=668 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:53:29.934] [🧨 BRIDGE-GAP-T0] gapMs=503 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:30.526] [🧨 BRIDGE-GAP-T0] gapMs=481 seq=0 missing=0 mode=bridge qTun=0 len=148
+> [18:53:31.268] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:31.592] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:31.600] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:32.773] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:33.447] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=109 n=147 peakGame=1 peakControl=1 policy=game-first
+> [18:53:34.933] [🧨 BRIDGE-GAP-T0] gapMs=4406 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:35.527] [🧨 BRIDGE-GAP-T0] gapMs=482 seq=0 missing=0 mode=bridge qTun=0 len=167
+> [18:53:35.939] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:36.600] [NATIVE/LAT] localProc maxMs=4 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:36.610] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=3 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:37.784] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:38.267] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:38.479] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=87 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:53:39.970] [🧨 BRIDGE-GAP-T0] gapMs=4443 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:40.564] [🧨 BRIDGE-GAP-T0] gapMs=482 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:53:40.589] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:41.601] [NATIVE/LAT] localProc maxMs=2 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:41.624] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:43.282] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:43.448] [🧨 BRIDGE-GAP-T0] gapMs=2883 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:53:43.526] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=98 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:53:44.971] [🧨 BRIDGE-GAP-T0] gapMs=1523 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:45.340] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:45.564] [🧨 BRIDGE-GAP-T0] gapMs=474 seq=0 missing=0 mode=bridge qTun=0 len=152
+> [18:53:46.627] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:46.634] [NATIVE/LAT] localProc maxMs=9 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:53:48.293] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:48.569] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=83 n=145 peakGame=1 peakControl=1 policy=game-first
+> [18:53:49.391] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:49.973] [🧨 BRIDGE-GAP-T0] gapMs=4408 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:49.984] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:50.601] [🧨 BRIDGE-GAP-T0] gapMs=519 seq=0 missing=0 mode=bridge qTun=0 len=152
+> [18:53:51.630] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=3 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:51.637] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:53:53.599] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=101 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:53:54.399] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:53:54.630] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:55.009] [🧨 BRIDGE-GAP-T0] gapMs=4408 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:55.340] [🧨 BRIDGE-GAP-T0] gapMs=210 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:53:55.637] [🧨 BRIDGE-GAP-T0] gapMs=296 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:53:56.656] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:53:56.657] [NATIVE/LAT] localProc maxMs=6 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:53:58.482] [🧨 BRIDGE-GAP-T0] gapMs=2845 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:53:58.903] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=100 n=144 peakGame=2 peakControl=1 policy=game-first
+> [18:53:58.908] [🧨 BRIDGE-GAP-T0] gapMs=426 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:53:59.288] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:53:59.406] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:00.012] [🧨 BRIDGE-GAP-T0] gapMs=1103 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:00.637] [🧨 BRIDGE-GAP-T0] gapMs=517 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:54:01.184] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:01.665] [NATIVE/LAT] rxWake wakes=105 packets=137 maxBatch=8 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:01.672] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:02.551] [🧨 BRIDGE-GAP-T0] gapMs=1913 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:54:03.921] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:03.924] [NATIVE/LAT] inboundQueue maxMs=6 avgUs=246 n=156 peakGame=7 peakControl=1 policy=game-first
+> [18:54:05.044] [🧨 BRIDGE-GAP-T0] gapMs=2449 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:05.676] [🧨 BRIDGE-GAP-T0] gapMs=519 seq=0 missing=0 mode=bridge qTun=0 len=149
+> [18:54:06.192] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:06.665] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:06.674] [NATIVE/LAT] localProc maxMs=16 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:08.565] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:08.926] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=80 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:54:10.044] [🧨 BRIDGE-GAP-T0] gapMs=4367 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:10.712] [🧨 BRIDGE-GAP-T0] gapMs=555 seq=0 missing=0 mode=bridge qTun=0 len=151
+> [18:54:11.200] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:11.523] [🧨 BRIDGE-GAP-T0] gapMs=811 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:54:11.667] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:11.674] [NATIVE/LAT] localProc maxMs=17 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:13.219] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:13.495] [🧨 BRIDGE-GAP-T0] gapMs=1912 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:54:13.623] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:13.873] [🧨 BRIDGE-GAP-T0] gapMs=354 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:54:13.970] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=124 n=156 peakGame=1 peakControl=1 policy=game-first
+> [18:54:14.390] [🧨 BRIDGE-GAP-T0] gapMs=516 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:54:15.081] [🧨 BRIDGE-GAP-T0] gapMs=690 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:15.750] [🧨 BRIDGE-GAP-T0] gapMs=551 seq=0 missing=0 mode=bridge qTun=0 len=164
+> [18:54:16.674] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:16.701] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=3 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:17.874] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:18.631] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:19.001] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=96 n=144 peakGame=1 peakControl=1 policy=game-first
+> [18:54:20.081] [🧨 BRIDGE-GAP-T0] gapMs=4331 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:20.785] [🧨 BRIDGE-GAP-T0] gapMs=591 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:54:21.677] [NATIVE/LAT] localProc maxMs=14 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:21.706] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:22.526] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:23.643] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:24.039] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=99 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:54:25.122] [🧨 BRIDGE-GAP-T0] gapMs=4335 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:25.823] [🧨 BRIDGE-GAP-T0] gapMs=592 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:54:26.705] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:26.712] [NATIVE/LAT] localProc maxMs=13 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:54:27.268] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:27.796] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:28.555] [🧨 BRIDGE-GAP-T0] gapMs=2732 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:54:28.924] [🧨 BRIDGE-GAP-T0] gapMs=369 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:54:29.048] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=88 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:54:29.721] [🧨 BRIDGE-GAP-T0] gapMs=797 seq=0 missing=0 mode=bridge qTun=0 len=64
+> [18:54:30.118] [🧨 BRIDGE-GAP-T0] gapMs=388 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:30.862] [🧨 BRIDGE-GAP-T0] gapMs=632 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:54:31.721] [NATIVE/LAT] localProc maxMs=6 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:31.723] [NATIVE/LAT] rxWake wakes=134 packets=134 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:32.015] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:32.809] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:34.065] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=126 n=123 peakGame=1 peakControl=1 policy=game-first
+> [18:54:35.118] [🧨 BRIDGE-GAP-T0] gapMs=4255 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:35.863] [🧨 BRIDGE-GAP-T0] gapMs=632 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:54:36.672] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:36.718] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:36.733] [NATIVE/LAT] rxWake wakes=114 packets=115 maxBatch=2 delayedWakes=0 maxKernelToUserMs=11 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:37.825] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:38.439] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:39.093] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=133 n=118 peakGame=1 peakControl=1 policy=game-first
+> [18:54:40.104] [🧨 BRIDGE-GAP-T0] gapMs=4241 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:40.897] [🧨 BRIDGE-GAP-T0] gapMs=654 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:54:41.335] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:41.748] [NATIVE/LAT] localProc maxMs=9 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:54:41.750] [NATIVE/LAT] rxWake wakes=110 packets=110 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:43.452] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:43.592] [🧨 BRIDGE-GAP-T0] gapMs=2694 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:54:43.913] [🧨 BRIDGE-GAP-T0] gapMs=320 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:54:44.101] [NATIVE/LAT] inboundQueue maxMs=9 avgUs=358 n=126 peakGame=1 peakControl=1 policy=game-first
+> [18:54:45.159] [🧨 BRIDGE-GAP-T0] gapMs=1242 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:45.898] [🧨 BRIDGE-GAP-T0] gapMs=619 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:54:45.977] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:46.754] [NATIVE/LAT] localProc maxMs=10 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:46.764] [NATIVE/LAT] rxWake wakes=120 packets=121 maxBatch=2 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:48.464] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:49.033] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:49.138] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=223 n=123 peakGame=1 peakControl=1 policy=game-first
+> [18:54:50.161] [🧨 BRIDGE-GAP-T0] gapMs=4263 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:50.722] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:50.899] [🧨 BRIDGE-GAP-T0] gapMs=629 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:54:51.763] [NATIVE/LAT] localProc maxMs=6 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:54:51.794] [NATIVE/LAT] rxWake wakes=113 packets=114 maxBatch=2 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:54.046] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:54.182] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=88 n=124 peakGame=2 peakControl=1 policy=game-first
+> [18:54:55.155] [🧨 BRIDGE-GAP-T0] gapMs=4255 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:55.371] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:54:55.502] [🧨 BRIDGE-GAP-T0] gapMs=235 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:55.934] [🧨 BRIDGE-GAP-T0] gapMs=432 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:54:56.786] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:54:56.800] [NATIVE/LAT] rxWake wakes=112 packets=113 maxBatch=2 delayedWakes=0 maxKernelToUserMs=4 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:54:58.628] [🧨 BRIDGE-GAP-T0] gapMs=2692 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:54:58.957] [🧨 BRIDGE-GAP-T0] gapMs=329 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:54:59.053] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:54:59.223] [NATIVE/LAT] inboundQueue maxMs=5 avgUs=282 n=128 peakGame=4 peakControl=1 policy=game-first
+> [18:54:59.442] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:00.150] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:00.199] [🧨 BRIDGE-GAP-T0] gapMs=1241 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:00.936] [🧨 BRIDGE-GAP-T0] gapMs=631 seq=0 missing=0 mode=bridge qTun=0 len=144
+> [18:55:01.795] [NATIVE/LAT] localProc maxMs=9 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:55:01.811] [NATIVE/LAT] rxWake wakes=116 packets=132 maxBatch=6 delayedWakes=0 maxKernelToUserMs=4 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:04.038] [🧨 BRIDGE-GAP-T0] gapMs=3102 seq=0 missing=0 mode=bridge qTun=0 len=64
+> [18:55:04.052] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:04.260] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=159 n=144 peakGame=1 peakControl=1 policy=game-first
+> [18:55:04.455] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:04.878] [🧨 BRIDGE-GAP-T0] gapMs=837 seq=0 missing=0 mode=bridge qTun=0 len=64
+> [18:55:05.232] [🧨 BRIDGE-GAP-T0] gapMs=352 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:05.975] [🧨 BRIDGE-GAP-T0] gapMs=633 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:55:06.814] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=8 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:06.825] [NATIVE/LAT] localProc maxMs=9 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:55:07.921] [🧨 BRIDGE-GAP-T0] gapMs=1946 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:55:08.726] [🧨 BRIDGE-GAP-T0] gapMs=798 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:55:08.807] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:09.262] [NATIVE/LAT] inboundQueue maxMs=7 avgUs=241 n=149 peakGame=1 peakControl=1 policy=game-first
+> [18:55:09.469] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:10.266] [🧨 BRIDGE-GAP-T0] gapMs=1539 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:11.009] [🧨 BRIDGE-GAP-T0] gapMs=630 seq=0 missing=0 mode=bridge qTun=0 len=170
+> [18:55:11.589] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:11.822] [NATIVE/LAT] localProc maxMs=5 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:55:11.823] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:13.458] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:13.672] [🧨 BRIDGE-GAP-T0] gapMs=2662 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:55:14.018] [🧨 BRIDGE-GAP-T0] gapMs=346 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:55:14.292] [NATIVE/LAT] inboundQueue maxMs=6 avgUs=190 n=145 peakGame=1 peakControl=1 policy=game-first
+> [18:55:15.267] [🧨 BRIDGE-GAP-T0] gapMs=1248 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:16.009] [🧨 BRIDGE-GAP-T0] gapMs=627 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:55:16.590] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:16.824] [NATIVE/LAT] localProc maxMs=12 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:55:16.830] [NATIVE/LAT] rxWake wakes=136 packets=136 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:18.221] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:19.295] [NATIVE/LAT] inboundQueue maxMs=9 avgUs=156 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:55:20.266] [🧨 BRIDGE-GAP-T0] gapMs=4256 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:21.009] [🧨 BRIDGE-GAP-T0] gapMs=630 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:55:21.594] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:21.848] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:21.859] [NATIVE/LAT] localProc maxMs=16 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:55:22.221] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:24.310] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=96 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:55:24.909] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:25.308] [🧨 BRIDGE-GAP-T0] gapMs=4297 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:26.009] [🧨 BRIDGE-GAP-T0] gapMs=586 seq=0 missing=0 mode=bridge qTun=0 len=162
+> [18:55:26.849] [NATIVE/LAT] rxWake wakes=136 packets=137 maxBatch=2 delayedWakes=0 maxKernelToUserMs=9 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:26.861] [NATIVE/LAT] localProc maxMs=13 avgMs=1 n=137 (T0->wire; lower=smoother)
+> [18:55:26.864] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:28.740] [🧨 BRIDGE-GAP-T0] gapMs=2730 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:55:29.109] [🧨 BRIDGE-GAP-T0] gapMs=369 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:55:29.331] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=129 n=147 peakGame=2 peakControl=1 policy=game-first
+> [18:55:29.919] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:30.343] [🧨 BRIDGE-GAP-T0] gapMs=1231 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:31.015] [🧨 BRIDGE-GAP-T0] gapMs=562 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:55:31.526] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:31.861] [NATIVE/LAT] localProc maxMs=14 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:55:31.866] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=4 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:34.368] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=138 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:55:34.929] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:35.343] [🧨 BRIDGE-GAP-T0] gapMs=4328 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:36.015] [🧨 BRIDGE-GAP-T0] gapMs=557 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:55:36.288] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:36.888] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:36.897] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:55:39.123] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:39.369] [NATIVE/LAT] inboundQueue maxMs=6 avgUs=162 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:55:40.209] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:40.353] [🧨 BRIDGE-GAP-T0] gapMs=4338 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:40.812] [🧨 BRIDGE-GAP-T0] gapMs=359 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:55:41.056] [🧨 BRIDGE-GAP-T0] gapMs=240 seq=0 missing=0 mode=bridge qTun=0 len=155
+> [18:55:41.621] [🧨 BRIDGE-GAP-T0] gapMs=567 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:55:41.897] [NATIVE/LAT] localProc maxMs=14 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:55:41.923] [NATIVE/LAT] rxWake wakes=137 packets=138 maxBatch=2 delayedWakes=0 maxKernelToUserMs=8 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:43.786] [🧨 BRIDGE-GAP-T0] gapMs=2163 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:55:44.114] [🧨 BRIDGE-GAP-T0] gapMs=328 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:55:44.138] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:44.410] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=109 n=151 peakGame=1 peakControl=1 policy=game-first
+> [18:55:44.973] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:45.380] [🧨 BRIDGE-GAP-T0] gapMs=1244 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:46.082] [🧨 BRIDGE-GAP-T0] gapMs=594 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:55:46.898] [NATIVE/LAT] localProc maxMs=4 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:55:46.963] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:48.874] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:49.141] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:49.415] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=127 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:55:49.480] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:50.379] [🧨 BRIDGE-GAP-T0] gapMs=4296 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:51.084] [🧨 BRIDGE-GAP-T0] gapMs=591 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:55:51.932] [NATIVE/LAT] localProc maxMs=10 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:55:51.964] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=3 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:53.633] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:54.445] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=130 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:55:54.482] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:55:55.416] [🧨 BRIDGE-GAP-T0] gapMs=4332 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:55:56.119] [🧨 BRIDGE-GAP-T0] gapMs=590 seq=0 missing=0 mode=bridge qTun=0 len=155
+> [18:55:56.933] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:55:56.998] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:55:57.533] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:55:58.846] [🧨 BRIDGE-GAP-T0] gapMs=2726 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:55:59.197] [🧨 BRIDGE-GAP-T0] gapMs=350 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:55:59.444] [NATIVE/LAT] inboundQueue maxMs=8 avgUs=190 n=146 peakGame=1 peakControl=1 policy=game-first
+> [18:55:59.496] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:00.456] [🧨 BRIDGE-GAP-T0] gapMs=1257 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:01.127] [🧨 BRIDGE-GAP-T0] gapMs=563 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:56:01.933] [NATIVE/LAT] localProc maxMs=18 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:56:01.998] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=7 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:02.192] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:04.482] [NATIVE/LAT] inboundQueue maxMs=14 avgUs=208 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:56:04.499] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:05.453] [🧨 BRIDGE-GAP-T0] gapMs=4326 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:06.158] [🧨 BRIDGE-GAP-T0] gapMs=595 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:56:06.261] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:06.933] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:56:06.956] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:06.998] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:09.520] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=89 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:56:10.462] [🧨 BRIDGE-GAP-T0] gapMs=4303 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:10.880] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:11.194] [🧨 BRIDGE-GAP-T0] gapMs=629 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:56:11.272] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:11.934] [NATIVE/LAT] localProc maxMs=14 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:56:12.000] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=3 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:13.893] [🧨 BRIDGE-GAP-T0] gapMs=2699 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:56:14.297] [🧨 BRIDGE-GAP-T0] gapMs=403 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:14.556] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=85 n=145 peakGame=1 peakControl=1 policy=game-first
+> [18:56:15.495] [🧨 BRIDGE-GAP-T0] gapMs=1197 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:15.623] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:15.824] [🧨 BRIDGE-GAP-T0] gapMs=222 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:16.195] [🧨 BRIDGE-GAP-T0] gapMs=371 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:56:16.287] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:16.839] [🧨 BRIDGE-GAP-T0] gapMs=644 seq=0 missing=0 mode=bridge qTun=0 len=48
+> [18:56:16.934] [NATIVE/LAT] localProc maxMs=10 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:56:17.044] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=7 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:17.168] [🧨 BRIDGE-GAP-T0] gapMs=328 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:56:17.307] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:18.030] [🧨 BRIDGE-GAP-T0] gapMs=860 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:19.555] [NATIVE/LAT] inboundQueue maxMs=8 avgUs=149 n=149 peakGame=1 peakControl=1 policy=game-first
+> [18:56:20.276] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:20.527] [🧨 BRIDGE-GAP-T0] gapMs=2496 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:21.231] [🧨 BRIDGE-GAP-T0] gapMs=592 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:56:21.971] [NATIVE/LAT] localProc maxMs=6 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:56:22.070] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:22.323] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:24.602] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=108 n=142 peakGame=2 peakControl=1 policy=game-first
+> [18:56:24.926] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:25.564] [🧨 BRIDGE-GAP-T0] gapMs=4332 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:26.268] [🧨 BRIDGE-GAP-T0] gapMs=593 seq=0 missing=0 mode=bridge qTun=0 len=141
+> [18:56:27.010] [NATIVE/LAT] localProc maxMs=4 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:56:27.072] [NATIVE/LAT] rxWake wakes=136 packets=137 maxBatch=2 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:27.338] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:28.957] [🧨 BRIDGE-GAP-T0] gapMs=2689 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:56:29.300] [🧨 BRIDGE-GAP-T0] gapMs=343 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:29.594] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:29.628] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=129 n=145 peakGame=1 peakControl=1 policy=game-first
+> [18:56:29.641] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:30.563] [🧨 BRIDGE-GAP-T0] gapMs=1262 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:30.897] [🧨 BRIDGE-GAP-T0] gapMs=222 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:31.270] [🧨 BRIDGE-GAP-T0] gapMs=372 seq=0 missing=0 mode=bridge qTun=0 len=141
+> [18:56:32.045] [NATIVE/LAT] localProc maxMs=2 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:56:32.108] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:34.395] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:34.629] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=144 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:56:34.644] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:35.599] [🧨 BRIDGE-GAP-T0] gapMs=4329 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:36.304] [🧨 BRIDGE-GAP-T0] gapMs=593 seq=0 missing=0 mode=bridge qTun=0 len=141
+> [18:56:37.047] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:56:37.108] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:38.312] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:39.641] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=149 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:56:39.651] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:39.733] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:40.637] [🧨 BRIDGE-GAP-T0] gapMs=4333 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:40.974] [🧨 BRIDGE-GAP-T0] gapMs=220 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:41.305] [🧨 BRIDGE-GAP-T0] gapMs=330 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:56:42.084] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:56:42.111] [NATIVE/LAT] rxWake wakes=137 packets=138 maxBatch=2 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:42.196] [🧨 BRIDGE-GAP-T0] gapMs=815 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:43.063] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:43.194] [🧨 BRIDGE-GAP-T0] gapMs=924 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:43.993] [🧨 BRIDGE-GAP-T0] gapMs=798 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:56:44.231] [🧨 BRIDGE-GAP-T0] gapMs=238 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:44.647] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=182 n=138 peakGame=2 peakControl=3 policy=game-first
+> [18:56:44.735] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:45.231] [🧨 BRIDGE-GAP-T0] gapMs=956 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:46.268] [🧨 BRIDGE-GAP-T0] gapMs=1037 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:46.721] [🧨 BRIDGE-GAP-T0] gapMs=377 seq=0 missing=0 mode=bridge qTun=0 len=71
+> [18:56:46.967] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:47.029] [🧨 BRIDGE-GAP-T0] gapMs=303 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:56:47.118] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:56:47.146] [NATIVE/LAT] rxWake wakes=123 packets=124 maxBatch=2 delayedWakes=0 maxKernelToUserMs=6 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:47.390] [🧨 BRIDGE-GAP-T0] gapMs=233 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:47.978] [🧨 BRIDGE-GAP-T0] gapMs=583 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:48.340] [🧨 BRIDGE-GAP-T0] gapMs=350 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:56:48.730] [🧨 BRIDGE-GAP-T0] gapMs=388 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:49.111] [🧨 BRIDGE-GAP-T0] gapMs=380 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:49.663] [NATIVE/LAT] inboundQueue maxMs=6 avgUs=206 n=160 peakGame=1 peakControl=3 policy=game-first
+> [18:56:49.751] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:51.381] [🧨 BRIDGE-GAP-T0] gapMs=2270 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:56:51.619] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:51.836] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:52.087] [🧨 BRIDGE-GAP-T0] gapMs=706 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:52.134] [NATIVE/LAT] localProc maxMs=12 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:56:52.147] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:54.666] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=93 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:56:56.377] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:56:56.415] [🧨 BRIDGE-GAP-T0] gapMs=4217 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:56:56.840] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:56:57.082] [🧨 BRIDGE-GAP-T0] gapMs=667 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:57.155] [NATIVE/LAT] localProc maxMs=13 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:56:57.182] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:56:57.415] [🧨 BRIDGE-GAP-T0] gapMs=220 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:57.822] [🧨 BRIDGE-GAP-T0] gapMs=407 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:56:59.033] [🧨 BRIDGE-GAP-T0] gapMs=1210 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:56:59.369] [🧨 BRIDGE-GAP-T0] gapMs=336 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:56:59.667] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=113 n=146 peakGame=4 peakControl=1 policy=game-first
+> [18:56:59.692] [🧨 BRIDGE-GAP-T0] gapMs=323 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:00.371] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:01.417] [🧨 BRIDGE-GAP-T0] gapMs=1725 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:57:01.842] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:02.084] [🧨 BRIDGE-GAP-T0] gapMs=666 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:02.149] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:02.162] [NATIVE/LAT] localProc maxMs=15 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:02.199] [NATIVE/LAT] rxWake wakes=127 packets=138 maxBatch=4 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:02.415] [🧨 BRIDGE-GAP-T0] gapMs=221 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:02.824] [🧨 BRIDGE-GAP-T0] gapMs=409 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:04.667] [NATIVE/LAT] inboundQueue maxMs=6 avgUs=198 n=146 peakGame=1 peakControl=2 policy=game-first
+> [18:57:05.130] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:06.452] [🧨 BRIDGE-GAP-T0] gapMs=3627 seq=0 missing=0 mode=bridge qTun=0 len=157
+> [18:57:07.124] [🧨 BRIDGE-GAP-T0] gapMs=672 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:07.156] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:07.193] [NATIVE/LAT] localProc maxMs=12 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:57:07.207] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:09.038] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:09.702] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=80 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:57:11.453] [🧨 BRIDGE-GAP-T0] gapMs=4223 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:57:12.165] [🧨 BRIDGE-GAP-T0] gapMs=712 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:12.167] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:12.194] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:12.220] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:13.691] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:13.913] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:14.069] [🧨 BRIDGE-GAP-T0] gapMs=1802 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:57:14.394] [🧨 BRIDGE-GAP-T0] gapMs=325 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:14.702] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=121 n=145 peakGame=1 peakControl=1 policy=game-first
+> [18:57:14.734] [🧨 BRIDGE-GAP-T0] gapMs=339 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:16.490] [🧨 BRIDGE-GAP-T0] gapMs=1755 seq=0 missing=0 mode=bridge qTun=0 len=169
+> [18:57:17.194] [NATIVE/LAT] localProc maxMs=9 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:17.196] [🧨 BRIDGE-GAP-T0] gapMs=706 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:17.221] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=5 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:18.361] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:18.927] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:19.705] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=87 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:57:21.502] [🧨 BRIDGE-GAP-T0] gapMs=4189 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:57:22.193] [🧨 BRIDGE-GAP-T0] gapMs=690 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:22.222] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:22.229] [NATIVE/LAT] localProc maxMs=17 avgMs=1 n=138 (T0->wire; lower=smoother)
+> [18:57:23.122] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:23.939] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:24.706] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=105 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:57:26.528] [🧨 BRIDGE-GAP-T0] gapMs=4221 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:57:26.608] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:27.019] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:27.229] [🧨 BRIDGE-GAP-T0] gapMs=701 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:27.234] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:27.238] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:29.104] [🧨 BRIDGE-GAP-T0] gapMs=1762 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:57:29.607] [🧨 BRIDGE-GAP-T0] gapMs=502 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:29.709] [NATIVE/LAT] inboundQueue maxMs=8 avgUs=175 n=144 peakGame=1 peakControl=1 policy=game-first
+> [18:57:31.564] [🧨 BRIDGE-GAP-T0] gapMs=1957 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:57:31.621] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:31.684] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:32.231] [🧨 BRIDGE-GAP-T0] gapMs=666 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:32.239] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:32.240] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:32.811] [🧨 BRIDGE-GAP-T0] gapMs=468 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:57:33.672] [🧨 BRIDGE-GAP-T0] gapMs=859 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:34.743] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=122 n=148 peakGame=1 peakControl=3 policy=game-first
+> [18:57:36.443] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:36.564] [🧨 BRIDGE-GAP-T0] gapMs=2892 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:57:36.633] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:37.246] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:37.247] [NATIVE/LAT] localProc maxMs=17 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:57:37.267] [🧨 BRIDGE-GAP-T0] gapMs=702 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:39.775] [NATIVE/LAT] inboundQueue maxMs=5 avgUs=165 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:57:40.090] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:40.440] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:41.603] [🧨 BRIDGE-GAP-T0] gapMs=4221 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:57:42.248] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:42.249] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:42.267] [🧨 BRIDGE-GAP-T0] gapMs=665 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:44.142] [🧨 BRIDGE-GAP-T0] gapMs=1761 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:57:44.655] [🧨 BRIDGE-GAP-T0] gapMs=513 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:44.777] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=97 n=144 peakGame=1 peakControl=1 policy=game-first
+> [18:57:45.094] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:45.104] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:46.637] [🧨 BRIDGE-GAP-T0] gapMs=1981 seq=0 missing=0 mode=bridge qTun=0 len=155
+> [18:57:47.256] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:47.258] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:47.304] [🧨 BRIDGE-GAP-T0] gapMs=667 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:47.882] [🧨 BRIDGE-GAP-T0] gapMs=455 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:57:48.806] [🧨 BRIDGE-GAP-T0] gapMs=920 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:49.751] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:49.784] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=154 n=145 peakGame=1 peakControl=2 policy=game-first
+> [18:57:50.110] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:50.288] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:51.674] [🧨 BRIDGE-GAP-T0] gapMs=2867 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:57:52.257] [NATIVE/LAT] rxWake wakes=136 packets=136 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:52.266] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:52.308] [🧨 BRIDGE-GAP-T0] gapMs=633 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:54.395] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:54.815] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=86 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:57:55.299] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:57:56.713] [🧨 BRIDGE-GAP-T0] gapMs=4297 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:57:57.267] [NATIVE/LAT] localProc maxMs=13 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:57:57.273] [NATIVE/LAT] rxWake wakes=136 packets=136 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:57:57.304] [🧨 BRIDGE-GAP-T0] gapMs=591 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:57:59.057] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:57:59.178] [🧨 BRIDGE-GAP-T0] gapMs=1751 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:57:59.504] [🧨 BRIDGE-GAP-T0] gapMs=326 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:57:59.817] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=152 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:58:00.300] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:01.719] [🧨 BRIDGE-GAP-T0] gapMs=2214 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:58:02.274] [NATIVE/LAT] localProc maxMs=13 avgMs=1 n=137 (T0->wire; lower=smoother)
+> [18:58:02.296] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:02.317] [🧨 BRIDGE-GAP-T0] gapMs=590 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:03.853] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:04.829] [NATIVE/LAT] inboundQueue maxMs=7 avgUs=229 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:58:05.305] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:06.047] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:06.752] [🧨 BRIDGE-GAP-T0] gapMs=4329 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:58:07.274] [NATIVE/LAT] localProc maxMs=16 avgMs=1 n=137 (T0->wire; lower=smoother)
+> [18:58:07.295] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=7 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:07.307] [🧨 BRIDGE-GAP-T0] gapMs=555 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:07.869] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:09.851] [NATIVE/LAT] inboundQueue maxMs=6 avgUs=222 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:58:11.058] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:11.769] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:11.785] [🧨 BRIDGE-GAP-T0] gapMs=4354 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:58:12.304] [NATIVE/LAT] localProc maxMs=16 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:58:12.306] [🧨 BRIDGE-GAP-T0] gapMs=520 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:12.331] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:14.227] [🧨 BRIDGE-GAP-T0] gapMs=1811 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:58:14.696] [🧨 BRIDGE-GAP-T0] gapMs=469 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:58:14.890] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=99 n=145 peakGame=1 peakControl=1 policy=game-first
+> [18:58:16.073] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:16.418] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:16.823] [🧨 BRIDGE-GAP-T0] gapMs=2127 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:58:17.337] [NATIVE/LAT] rxWake wakes=137 packets=138 maxBatch=2 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:17.338] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:58:17.346] [🧨 BRIDGE-GAP-T0] gapMs=523 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:19.904] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=130 n=139 peakGame=1 peakControl=1 policy=game-first
+> [18:58:21.079] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:21.087] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:21.822] [🧨 BRIDGE-GAP-T0] gapMs=4370 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:58:22.338] [NATIVE/LAT] rxWake wakes=135 packets=135 maxBatch=1 delayedWakes=0 maxKernelToUserMs=3 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:22.340] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:58:22.377] [🧨 BRIDGE-GAP-T0] gapMs=555 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:24.273] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:24.934] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=132 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:58:25.300] [🧨 BRIDGE-GAP-T0] gapMs=2810 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:58:25.818] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:26.859] [🧨 BRIDGE-GAP-T0] gapMs=1557 seq=0 missing=0 mode=bridge qTun=0 len=153
+> [18:58:27.300] [🧨 BRIDGE-GAP-T0] gapMs=441 seq=0 missing=0 mode=bridge qTun=0 len=71
+> [18:58:27.339] [NATIVE/LAT] rxWake wakes=136 packets=136 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:27.342] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:58:27.748] [🧨 BRIDGE-GAP-T0] gapMs=222 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:29.094] [🧨 BRIDGE-GAP-T0] gapMs=1273 seq=0 missing=0 mode=bridge qTun=0 len=70
+> [18:58:29.255] [🧨 BRIDGE-GAP-T0] gapMs=160 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:58:29.287] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:29.593] [🧨 BRIDGE-GAP-T0] gapMs=329 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:58:29.949] [NATIVE/LAT] inboundQueue maxMs=8 avgUs=226 n=156 peakGame=1 peakControl=2 policy=game-first
+> [18:58:30.258] [🧨 BRIDGE-GAP-T0] gapMs=641 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:58:30.586] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:30.619] [🧨 BRIDGE-GAP-T0] gapMs=342 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:58:31.614] [🧨 BRIDGE-GAP-T0] gapMs=994 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:58:31.898] [🧨 BRIDGE-GAP-T0] gapMs=283 seq=0 missing=0 mode=bridge qTun=0 len=144
+> [18:58:32.351] [NATIVE/LAT] localProc maxMs=13 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:58:32.355] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=5 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:32.452] [🧨 BRIDGE-GAP-T0] gapMs=553 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:34.298] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:34.483] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:34.961] [NATIVE/LAT] inboundQueue maxMs=15 avgUs=232 n=156 peakGame=1 peakControl=2 policy=game-first
+> [18:58:36.939] [🧨 BRIDGE-GAP-T0] gapMs=4371 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:58:37.333] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:37.373] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:37.374] [NATIVE/LAT] localProc maxMs=12 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:58:37.454] [🧨 BRIDGE-GAP-T0] gapMs=515 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:39.151] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:39.960] [NATIVE/LAT] inboundQueue maxMs=14 avgUs=248 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:58:41.971] [🧨 BRIDGE-GAP-T0] gapMs=4408 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:58:42.348] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:42.380] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:58:42.381] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=11 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:42.489] [🧨 BRIDGE-GAP-T0] gapMs=517 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:42.823] [🧨 BRIDGE-GAP-T0] gapMs=217 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:43.230] [🧨 BRIDGE-GAP-T0] gapMs=408 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:43.791] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:44.047] [🧨 BRIDGE-GAP-T0] gapMs=816 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:44.303] [🧨 BRIDGE-GAP-T0] gapMs=256 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:58:44.652] [🧨 BRIDGE-GAP-T0] gapMs=349 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:58:44.963] [NATIVE/LAT] inboundQueue maxMs=10 avgUs=242 n=144 peakGame=1 peakControl=1 policy=game-first
+> [18:58:46.973] [🧨 BRIDGE-GAP-T0] gapMs=2260 seq=0 missing=0 mode=bridge qTun=0 len=163
+> [18:58:47.362] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:47.389] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=7 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:47.390] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:58:47.444] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:47.491] [🧨 BRIDGE-GAP-T0] gapMs=518 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:48.587] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:49.963] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=197 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:58:51.974] [🧨 BRIDGE-GAP-T0] gapMs=4363 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:58:52.397] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=9 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:52.398] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:58:52.451] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:52.489] [🧨 BRIDGE-GAP-T0] gapMs=514 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:52.607] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:54.987] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=113 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:58:56.512] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:58:57.009] [🧨 BRIDGE-GAP-T0] gapMs=4404 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:58:57.404] [NATIVE/LAT] rxWake wakes=136 packets=136 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:58:57.408] [NATIVE/LAT] localProc maxMs=11 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:58:57.474] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:58:57.527] [🧨 BRIDGE-GAP-T0] gapMs=517 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:58:59.341] [🧨 BRIDGE-GAP-T0] gapMs=1696 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:58:59.852] [🧨 BRIDGE-GAP-T0] gapMs=511 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:58:59.996] [NATIVE/LAT] inboundQueue maxMs=9 avgUs=339 n=144 peakGame=4 peakControl=1 policy=game-first
+> [18:59:01.247] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:01.266] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:02.047] [🧨 BRIDGE-GAP-T0] gapMs=2194 seq=0 missing=0 mode=bridge qTun=0 len=175
+> [18:59:02.416] [NATIVE/LAT] localProc maxMs=10 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:02.422] [NATIVE/LAT] rxWake wakes=126 packets=137 maxBatch=4 delayedWakes=0 maxKernelToUserMs=6 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:02.566] [🧨 BRIDGE-GAP-T0] gapMs=519 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:05.007] [NATIVE/LAT] inboundQueue maxMs=12 avgUs=280 n=141 peakGame=1 peakControl=1 policy=game-first
+> [18:59:05.189] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:06.261] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:07.084] [🧨 BRIDGE-GAP-T0] gapMs=4401 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:59:07.415] [NATIVE/LAT] localProc maxMs=8 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:07.434] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=9 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:07.599] [🧨 BRIDGE-GAP-T0] gapMs=515 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:09.945] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:10.038] [NATIVE/LAT] inboundQueue maxMs=4 avgUs=184 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:59:11.273] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:12.083] [🧨 BRIDGE-GAP-T0] gapMs=4369 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:59:12.418] [NATIVE/LAT] localProc maxMs=9 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:12.436] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:12.603] [🧨 BRIDGE-GAP-T0] gapMs=519 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:14.380] [🧨 BRIDGE-GAP-T0] gapMs=1666 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:59:14.713] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:14.715] [🧨 BRIDGE-GAP-T0] gapMs=334 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:15.075] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=114 n=147 peakGame=1 peakControl=1 policy=game-first
+> [18:59:16.272] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:16.321] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:17.119] [🧨 BRIDGE-GAP-T0] gapMs=2402 seq=0 missing=0 mode=bridge qTun=0 len=167
+> [18:59:17.437] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:17.438] [NATIVE/LAT] localProc maxMs=3 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:59:17.602] [🧨 BRIDGE-GAP-T0] gapMs=482 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:18.636] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:20.119] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=98 n=143 peakGame=1 peakControl=1 policy=game-first
+> [18:59:21.324] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:22.159] [🧨 BRIDGE-GAP-T0] gapMs=4447 seq=0 missing=0 mode=bridge qTun=0 len=155
+> [18:59:22.443] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:22.455] [NATIVE/LAT] localProc maxMs=7 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:22.602] [🧨 BRIDGE-GAP-T0] gapMs=443 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:23.407] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:25.148] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=95 n=142 peakGame=1 peakControl=1 policy=game-first
+> [18:59:26.327] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:27.160] [🧨 BRIDGE-GAP-T0] gapMs=4448 seq=0 missing=0 mode=bridge qTun=0 len=150
+> [18:59:27.426] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:27.444] [NATIVE/LOG] dropped 1 deferred logs
+> [18:59:27.465] [NATIVE/LAT] localProc maxMs=10 avgMs=0 n=138 (T0->wire; lower=smoother)
+> [18:59:27.645] [🧨 BRIDGE-GAP-T0] gapMs=481 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:29.335] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:29.424] [🧨 BRIDGE-GAP-T0] gapMs=1676 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:59:29.795] [🧨 BRIDGE-GAP-T0] gapMs=370 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:30.184] [NATIVE/LAT] inboundQueue maxMs=8 avgUs=177 n=146 peakGame=1 peakControl=1 policy=game-first
+> [18:59:31.444] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:31.612] [🧨 BRIDGE-GAP-T0] gapMs=1817 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:32.168] [🧨 BRIDGE-GAP-T0] gapMs=511 seq=0 missing=0 mode=bridge qTun=0 len=169
+> [18:59:32.465] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:32.466] [NATIVE/LAT] localProc maxMs=12 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:32.676] [🧨 BRIDGE-GAP-T0] gapMs=509 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:33.225] [🧨 BRIDGE-GAP-T0] gapMs=329 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:33.611] [🧨 BRIDGE-GAP-T0] gapMs=381 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:34.023] [🧨 BRIDGE-GAP-T0] gapMs=316 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:59:34.338] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:34.903] [🧨 BRIDGE-GAP-T0] gapMs=874 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:59:35.193] [NATIVE/LAT] inboundQueue maxMs=6 avgUs=178 n=168 peakGame=1 peakControl=2 policy=game-first
+> [18:59:35.368] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:35.583] [🧨 BRIDGE-GAP-T0] gapMs=678 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:59:36.351] [🧨 BRIDGE-GAP-T0] gapMs=766 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:37.194] [🧨 BRIDGE-GAP-T0] gapMs=842 seq=0 missing=0 mode=bridge qTun=0 len=141
+> [18:59:37.466] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:37.467] [NATIVE/LAT] localProc maxMs=6 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:37.711] [🧨 BRIDGE-GAP-T0] gapMs=518 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:39.342] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:40.173] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:40.221] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=120 n=147 peakGame=1 peakControl=2 policy=game-first
+> [18:59:40.811] [🧨 BRIDGE-GAP-T0] gapMs=2989 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:59:41.882] [🧨 BRIDGE-GAP-T0] gapMs=1068 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:42.196] [🧨 BRIDGE-GAP-T0] gapMs=299 seq=0 missing=0 mode=bridge qTun=0 len=155
+> [18:59:42.473] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:42.474] [NATIVE/LAT] localProc maxMs=2 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:42.713] [🧨 BRIDGE-GAP-T0] gapMs=512 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:44.177] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:44.348] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:44.467] [🧨 BRIDGE-GAP-T0] gapMs=1574 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:59:44.785] [🧨 BRIDGE-GAP-T0] gapMs=317 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:45.263] [NATIVE/LAT] inboundQueue maxMs=2 avgUs=139 n=165 peakGame=1 peakControl=2 policy=game-first
+> [18:59:47.232] [🧨 BRIDGE-GAP-T0] gapMs=2443 seq=0 missing=0 mode=bridge qTun=0 len=141
+> [18:59:47.474] [NATIVE/LAT] rxWake wakes=137 packets=137 maxBatch=1 delayedWakes=0 maxKernelToUserMs=1 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:47.475] [NATIVE/LAT] localProc maxMs=3 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:47.748] [🧨 BRIDGE-GAP-T0] gapMs=515 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:48.088] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:48.111] [🧨 BRIDGE-GAP-T0] gapMs=253 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:59:48.823] [🧨 BRIDGE-GAP-T0] gapMs=710 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:49.365] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:50.294] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=104 n=148 peakGame=1 peakControl=2 policy=game-first
+> [18:59:52.234] [🧨 BRIDGE-GAP-T0] gapMs=3409 seq=0 missing=0 mode=bridge qTun=0 len=141
+> [18:59:52.477] [NATIVE/LAT] rxWake wakes=138 packets=138 maxBatch=1 delayedWakes=0 maxKernelToUserMs=2 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:52.479] [NATIVE/LAT] localProc maxMs=1 avgMs=0 n=137 (T0->wire; lower=smoother)
+> [18:59:52.748] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:52.749] [🧨 BRIDGE-GAP-T0] gapMs=515 seq=0 missing=0 mode=bridge qTun=0 len=208
+> [18:59:53.638] [🧨 BRIDGE-GAP-T0] gapMs=779 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:59:53.698] [MATCH-CAP ] 54B tail detected -> Path A capture (4fps), expecting ~0pps within 3s
+> [18:59:54.024] [🧨 BRIDGE-GAP-T0] gapMs=385 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [18:59:54.357] [🧨 BRIDGE-GAP-T0] gapMs=330 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [18:59:54.378] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:54.531] [🧨 BRIDGE-GAP-T0] gapMs=167 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:55.474] [NATIVE/LAT] inboundQueue maxMs=3 avgUs=143 n=140 peakGame=1 peakControl=2 policy=game-first
+> [18:59:55.492] [🧨 BRIDGE-GAP-T0] gapMs=413 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [18:59:55.708] [MATCH-CAP ] Path A cliff confirmed (pps=1) -> tail capture <= 7s
+> [18:59:55.749] [🧨 BRIDGE-GAP-T0] gapMs=257 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:59:56.238] [🧨 BRIDGE-GAP-T0] gapMs=488 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:59:56.707] [🧨 BRIDGE-GAP-T0] gapMs=465 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:59:57.065] [🧨 BRIDGE-GAP-T0] gapMs=357 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:59:57.544] [PRIME-CLIENT] ( completed (1108 chars)
+> [18:59:57.767] [🧨 BRIDGE-GAP-T0] gapMs=583 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:59:57.969] [NATIVE/LAT] rxWake wakes=60 packets=60 maxBatch=1 delayedWakes=0 maxKernelToUserMs=7 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [18:59:57.979] [🧨 BRIDGE-GAP-T0] gapMs=213 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:59:58.308] [MATCH-OCR ] F33 STATS_BOARD read 1-0 final=FULL_TIME stats=10 rows
+> [18:59:58.357] [🧨 BRIDGE-GAP-T0] gapMs=231 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [18:59:58.706] [🧨 BRIDGE-GAP-T0] gapMs=351 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:59:59.184] [MATCH-OCR ] F33 MENU read 2-1 final=FULL_TIME stats=0 rows
+> [18:59:59.289] [🧨 BRIDGE-GAP-T0] gapMs=583 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [18:59:59.390] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [18:59:59.524] [🧨 BRIDGE-GAP-T0] gapMs=235 seq=0 missing=0 mode=bridge qTun=0 len=362
+> [18:59:59.854] [🧨 BRIDGE-GAP-T0] gapMs=249 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [18:59:59.905] [MATCH-OCR ] F33 MENU read 2-1 final=FULL_TIME stats=0 rows
+> [18:59:59.923] [MATCH] SCREEN FINAL 2-1 source=auto:f33:menu; PeerCoin +0.30
+> [18:59:59.925] [MATCH-OCR ] Confirmed HOME 2-1 AWAY (auto)
+> [19:00:00.692] [MATCH-OCR ] F33 MENU read 2-1 final=FULL_TIME stats=0 rows
+> [19:00:00.751] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=97 n=23 peakGame=0 peakControl=2 policy=game-first
+> [19:00:00.753] [🧨 BRIDGE-GAP-T0] gapMs=634 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [19:00:01.400] [MATCH-OCR ] F33 MENU read 2-1 final=FULL_TIME stats=0 rows
+> [19:00:01.650] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:02.157] [MATCH-OCR ] F33 MENU read 2-1 final=FULL_TIME stats=0 rows
+> [19:00:03.058] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:03.194] [🧨 BRIDGE-GAP-T0] gapMs=2440 seq=0 missing=0 mode=bridge qTun=0 len=82
+> [19:00:03.413] [🧨 BRIDGE-GAP-T0] gapMs=218 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [19:00:03.627] [🧨 BRIDGE-GAP-T0] gapMs=213 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:04.015] [🧨 BRIDGE-GAP-T0] gapMs=210 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:04.266] [🧨 BRIDGE-GAP-T0] gapMs=251 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [19:00:04.411] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:05.186] [🧨 BRIDGE-GAP-T0] gapMs=356 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:05.547] [🧨 BRIDGE-GAP-T0] gapMs=187 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [19:00:05.646] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:05.712] [🧨 BRIDGE-GAP-T0] gapMs=165 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:05.856] [NATIVE/LAT] inboundQueue maxMs=1 avgUs=177 n=50 peakGame=0 peakControl=5 policy=game-first
+> [19:00:05.864] [🧨 BRIDGE-GAP-T0] gapMs=151 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:06.209] [🧨 BRIDGE-GAP-T0] gapMs=240 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:06.635] [🧨 BRIDGE-GAP-T0] gapMs=238 seq=0 missing=0 mode=bridge qTun=0 len=60
+> [19:00:06.968] [🧨 BRIDGE-GAP-T0] gapMs=193 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [19:00:07.273] [🧨 BRIDGE-GAP-T0] gapMs=172 seq=0 missing=0 mode=bridge qTun=0 len=128
+> [19:00:07.578] [🧨 BRIDGE-GAP-T0] gapMs=229 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [19:00:07.904] [🧨 BRIDGE-GAP-T0] gapMs=176 seq=0 missing=0 mode=bridge qTun=0 len=126
+> [19:00:08.091] [🧨 BRIDGE-GAP-T0] gapMs=183 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [19:00:08.233] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:08.347] [🧨 BRIDGE-GAP-T0] gapMs=253 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [19:00:08.567] [🧨 BRIDGE-GAP-T0] gapMs=217 seq=0 missing=0 mode=bridge qTun=0 len=40
+> [19:00:09.144] [🧨 BRIDGE-GAP-T0] gapMs=411 seq=0 missing=0 mode=bridge qTun=0 len=128
+> [19:00:09.319] [🧨 BRIDGE-GAP-T0] gapMs=172 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [19:00:09.444] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:09.584] [🧨 BRIDGE-GAP-T0] gapMs=263 seq=0 missing=0 mode=bridge qTun=0 len=123
+> [19:00:09.795] [🧨 BRIDGE-GAP-T0] gapMs=207 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [19:00:09.987] [🧨 BRIDGE-GAP-T0] gapMs=183 seq=0 missing=0 mode=bridge qTun=0 len=93
+> [19:00:10.153] [🧨 BRIDGE-GAP-T0] gapMs=162 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [19:00:10.290] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:10.338] [🧨 BRIDGE-GAP-T0] gapMs=183 seq=0 missing=0 mode=bridge qTun=0 len=94
+> [19:00:10.525] [MATCH-OCR ] F33 MENU read 5-5 final=UNKNOWN stats=0 rows
+> [19:00:10.739] [🧨 BRIDGE-GAP-T0] gapMs=287 seq=0 missing=0 mode=bridge qTun=0 len=92
+> [19:00:10.937] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=90 n=63 peakGame=0 peakControl=2 policy=game-first
+> [19:00:10.943] [🧨 BRIDGE-GAP-T0] gapMs=204 seq=0 missing=0 mode=bridge qTun=0 len=91
+> [19:00:11.108] [🧨 BRIDGE-GAP-T0] gapMs=163 seq=0 missing=0 mode=bridge qTun=0 len=92
+> [19:00:11.356] [🧨 BRIDGE-GAP-T0] gapMs=246 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:11.895] [🧨 BRIDGE-GAP-T0] gapMs=158 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:12.100] [🧨 BRIDGE-GAP-T0] gapMs=206 seq=0 missing=0 mode=bridge qTun=0 len=82
+> [19:00:13.265] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:13.951] [🧨 BRIDGE-GAP-T0] gapMs=1851 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [19:00:14.355] [🧨 BRIDGE-GAP-T0] gapMs=403 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:14.467] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:14.876] [🧨 BRIDGE-GAP-T0] gapMs=519 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [19:00:15.253] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:15.841] [T-STATE   ] MainActivity onResume running=true mode=hotspot
+> [19:00:15.841] [RESUME     ] Active session detected — preserving live transport state
+> [19:00:15.869] [RESUME     ] Control-plane watchers ensured for active session
+> [19:00:16.878] [🧨 BRIDGE-GAP-T0] gapMs=1999 seq=0 missing=0 mode=bridge qTun=0 len=71
+> [19:00:16.879] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=121 n=17 peakGame=0 peakControl=2 policy=game-first
+> [19:00:18.280] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:19.040] [🧨 BRIDGE-GAP-T0] gapMs=2161 seq=0 missing=0 mode=bridge qTun=0 len=576
+> [19:00:19.254] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:19.363] [🧨 BRIDGE-GAP-T0] gapMs=320 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:19.495] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:19.616] [🧨 BRIDGE-GAP-T0] gapMs=253 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [19:00:20.010] [🧨 BRIDGE-GAP-T0] gapMs=235 seq=0 missing=0 mode=bridge qTun=0 len=30
+> [19:00:21.938] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=98 n=24 peakGame=0 peakControl=2 policy=game-first
+> [19:00:23.291] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:24.004] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:24.518] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:25.597] [🧨 BRIDGE-GAP-T0] gapMs=2278 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:26.443] [🧨 BRIDGE-GAP-T0] gapMs=845 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:26.702] [🧨 BRIDGE-GAP-T0] gapMs=259 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:27.181] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=98 n=45 peakGame=0 peakControl=2 policy=game-first
+> [19:00:27.222] [🧨 BRIDGE-GAP-T0] gapMs=519 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [19:00:27.977] [🧨 BRIDGE-GAP-T0] gapMs=675 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:28.299] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:28.444] [🧨 BRIDGE-GAP-T0] gapMs=466 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [19:00:28.663] [🧨 BRIDGE-GAP-T0] gapMs=219 seq=0 missing=0 mode=bridge qTun=0 len=82
+> [19:00:28.755] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:29.185] [🧨 BRIDGE-GAP-T0] gapMs=521 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:29.544] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:29.692] [🧨 BRIDGE-GAP-T0] gapMs=366 seq=0 missing=0 mode=bridge qTun=0 len=128
+> [19:00:29.912] [🧨 BRIDGE-GAP-T0] gapMs=217 seq=0 missing=0 mode=bridge qTun=0 len=124
+> [19:00:30.867] [🧨 BRIDGE-GAP-T0] gapMs=955 seq=0 missing=0 mode=bridge qTun=0 len=123
+> [19:00:31.489] [🧨 BRIDGE-GAP-T0] gapMs=528 seq=0 missing=0 mode=bridge qTun=0 len=92
+> [19:00:31.823] [🧨 BRIDGE-GAP-T0] gapMs=333 seq=0 missing=0 mode=bridge qTun=0 len=92
+> [19:00:32.431] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=66 n=19 peakGame=0 peakControl=1 policy=game-first
+> [19:00:32.466] [🧨 BRIDGE-GAP-T0] gapMs=314 seq=0 missing=0 mode=bridge qTun=0 len=98
+> [19:00:32.783] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:32.925] [🧨 BRIDGE-GAP-T0] gapMs=455 seq=0 missing=0 mode=bridge qTun=0 len=99
+> [19:00:33.306] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:33.391] [🧨 BRIDGE-GAP-T0] gapMs=464 seq=0 missing=0 mode=bridge qTun=0 len=30
+> [19:00:34.564] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:36.795] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:38.310] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:39.582] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:39.584] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=84 n=61 peakGame=0 peakControl=2 policy=game-first
+> [19:00:40.702] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:43.169] [T-STATE   ] MainActivity onPause running=true mode=hotspot
+> [19:00:43.170] [T-STATE   ] Active session preserved onPause — control-plane watchers kept alive
+> [19:00:43.324] [NATIVE/LAT] rxWake wakes=5 packets=5 maxBatch=1 delayedWakes=0 maxKernelToUserMs=0 maxKernelSpanMs=0 interpretation=kernel-ts-vs-user-wake
+> [19:00:43.919] [T-STATE   ] MainActivity onDestroy running=true mode=hotspot
+> [19:00:43.920] [T-STATE   ] onDestroy while session active — preserving transport state
+> [19:00:43.955] [PRIME] Service: app swiped during active session — trying to re-anchor process
+> [19:00:44.058] [NET-DISC  ] UDP broadcast discovery initialised (replaces mDNS)
+> [19:00:44.082] [T-STATE   ] MainActivity onResume running=true mode=hotspot
+> [19:00:44.082] [RESUME     ] Active session detected — preserving live transport state
+> [19:00:44.083] [RESUME     ] Control-plane watchers ensured for active session
+> [19:00:44.543] [🧨 BRIDGE-GAP-T0] gapMs=7850 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:44.607] STUN[T7:Signal]: 197.210.53.1:28323 from 35.76.243.83:3478 → 10.146.150.5:28323
+> [19:00:44.609] [NATIVE/LAT] inboundQueue maxMs=0 avgUs=55 n=1 peakGame=0 peakControl=1 policy=game-first
+> [19:00:44.679] [STARTUP    ] GodModeManager.init ok
+> [19:00:44.679] [STARTUP    ] Prime alive check ok
+> [19:00:44.697] [NET-DISC  ] Binding discovery to wlan0#33 10.146.150.5/24
+> [19:00:44.698] [NET-DISC  ] Registered as "Tiamant_" on 10.146.150.5:17024
+> [19:00:44.700] [PRIME-LADDER] App open — PrimeServer alive=true
+> [19:00:44.704] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.146.150.5
+> [19:00:44.706] [HOTSPOT   ] Discovery path bind: wlan0#33 10.146.150.5/24
+> [19:00:45.261] [🧨 BRIDGE-GAP-T0] gapMs=717 seq=0 missing=0 mode=bridge qTun=0 len=83
+> [19:00:45.449] [PRIME-CLIENT] ( completed (1108 chars)
+> [19:00:46.053] [🧨 BRIDGE-GAP-T0] gapMs=677 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:46.815] [🧨 BRIDGE-GAP-T0] gapMs=761 seq=0 missing=0 mode=bridge qTun=0 len=84
+> [19:00:47.276] [🧨 BRIDGE-GAP-T0] gapMs=460 seq=0 missing=0 mode=bridge qTun=0 len=85
+> [19:00:47.947] [🧨 BRIDGE-GAP-T0] gapMs=671 seq=0 missing=0 mode=bridge qTun=0 len=83

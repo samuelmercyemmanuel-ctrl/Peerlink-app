@@ -1,0 +1,613 @@
+> [18:33:29.537] [PRIME-MODE ] init (bootstrapped=false pairedTrusted=false keepGame=false)
+> [18:33:29.772] [NET-DISC  ] UDP broadcast discovery initialised (replaces mDNS)
+> [18:33:29.868] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:34:37.189] [STARTUP    ] GodModeManager.init ok
+> [18:34:37.197] [STARTUP    ] Prime alive check ok
+> [18:34:37.225] [PRIME-LADDER] App open — PrimeServer alive=false
+> [18:34:37.596] [T-STATE   ] MainActivity onPause running=false mode=
+> [18:34:37.683] [NET-DISC  ] Waiting for Wi-Fi/hotspot LAN interface; cellular paths are ignored
+> [18:34:39.477] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:34:39.479] [PRIME-MODE ] NSD watcher starting
+> [18:35:07.983] [PRIME-MODE ] DISCOVERING — Check notification shade — enter the 6-digit code
+> [18:35:07.984] [PRIME-MODE ] Starting notification pairing service
+> [18:35:08.192] GodMode [svc]: Foreground service started — NSD timeout in 60s
+> [18:35:09.239] [T-STATE   ] MainActivity onPause running=false mode=
+> [18:35:21.652] [PRIME-MODE ] Connect port cached: 127.0.0.1:44267
+> [18:35:25.536] [PRIME-MODE ] Pairing port: 127.0.0.1:44041
+> [18:35:25.538] [PRIME-MODE ] DISCOVERING — Enter the 6-digit code shown in your notification
+> [18:35:25.543] GodMode [svc]: ✅ Pairing port → 127.0.0.1:44041
+> [18:35:25.545] [PRIME-MODE ] Pairing endpoint cached: 127.0.0.1:44041
+> [18:35:25.546] [PRIME-MODE ] DISCOVERING — Pairing endpoint detected — enter the 6-digit code
+> [18:35:42.268] GodMode [svc]: Submitting pairing input
+> [18:35:42.285] [PRIME-MODE ] PAIRING — Connecting to ADB daemon
+> [18:35:42.289] [PRIME-MODE ] Pairing port=44041 hosts=[127.0.0.1]
+> [18:35:42.297] [PRIME-MODE ] Trying 127.0.0.1:44041
+> [18:35:43.047] [PRIME-MODE ] Paired via 127.0.0.1 ✅
+> [18:35:43.049] [PRIME-MODE ] Pairing trust confirmed ✅
+> [18:35:43.049] [PRIME-MODE ] PAIRED_IDLE — Paired — keep Wireless debugging on and tap Activate
+> [18:35:43.094] [PRIME-MODE ] Pairing service lost
+> [18:35:43.096] GodMode [svc]: Pairing service lost after success — expected, ignoring
+> [18:35:43.110] GodMode [svc]: ✅ Paired — waiting for explicit ACTIVATE
+> [18:35:48.170] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:35:53.017] [PRIME-MODE ] Master → true
+> [18:35:53.673] [PRIME-MODE ] BOOTSTRAPPING — Completing one-time Prime setup…
+> [18:35:53.673] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=true)
+> [18:35:53.677] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [18:35:53.696] [PRIME-MODE ] Starting with wireless adb in port 44267
+> [18:35:57.360] [PRIME-MODE ] Bootstrap FAILED: Prime failed while starting with wireless adb in port 44267; retry activation
+> [18:35:57.362] [PRIME-MODE ] ERROR — Prime failed while starting with wireless adb in port 44267; retry activation
+> [18:35:57.363] [PRIME-MODE ] NSD watcher starting
+> [18:35:57.382] [PRIME-MODE ] Connect port cached: 127.0.0.1:44267
+> [18:36:01.058] [PRIME-MODE ] CONNECTING — Applying performance lock…
+> [18:36:01.775] [PRIME-CLIENT] ( completed (22896 chars)
+> [18:36:01.937] [PRIME-CLIENT] ( completed (1586 chars)
+> [18:36:02.934] [PRIME-CLIENT] ( completed (37862 chars)
+> [18:36:03.157] [PRIME-CLIENT] ( completed (3900 chars)
+> [18:36:03.285] [PRIME-CLIENT] ( completed (98 chars)
+> [18:36:03.422] [PRIME-CLIENT] ( completed (159 chars)
+> [18:36:03.423] [PRIME-CAPS ] graphics=MODERN_CUSTOM verified=true · Modern GameManager custom scaling is already present and readable
+> [18:36:03.551] [PRIME-CLIENT] ( completed (19 chars)
+> [18:36:03.560] [PRIME-CAPS ] sdk=35 freeze=true compact=true graphics=MODERN_CUSTOM verified=true gamePerf=false ART=true
+> [18:36:03.782] [PRIME-CLIENT] ( completed (45 chars)
+> [18:36:04.009] [PRIME-CLIENT] ( completed (4501 chars)
+> [18:36:04.025] [PRIME-MODE ] Original device settings captured for exact restore
+> [18:36:04.153] [PRIME-CLIENT] ( completed (44 chars)
+> [18:36:04.349] [PRIME-CLIENT] ( completed (4529 chars)
+> [18:36:04.355] [PRIME] [18:36:04] [OK]  LanLink doze immunity → system-excidle,com.mediatek.ims,1001
+system-excidle,com.transsion.plat.appupdate
+> [18:36:04.731] [PRIME-CLIENT] ( completed (19 chars)
+> [18:36:04.854] [PRIME-CLIENT] ( completed (45 chars)
+> [18:36:04.855] [PRIME] [18:36:04] [OK]  Airplane shield on → cell,bluetooth,nfc,wimax
+> [18:36:05.008] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime Mode active
+> [18:36:05.011] [PRIME-GUARD] Runtime guardian started
+> [18:36:05.025] [PRIME-GUARD] Foreground guardian requested
+> [18:36:05.030] [PRIME-MODE ] Applied 2/2 requested settings
+> [18:36:05.030] [PRIME-MEM  ] Memory Director started
+> [18:36:05.041] [PRIME-GUARD] Foreground guardian service created
+> [18:36:05.258] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:05.517] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:07.239] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:08.960] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:09.961] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:10.931] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:12.651] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:14.271] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:14.513] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:16.134] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:17.867] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:18.204] [PRIME-CLIENT] ( completed (144 chars)
+> [18:36:18.327] [PRIME-CLIENT] ( completed (160 chars)
+> [18:36:18.449] [PRIME-CLIENT] ( completed (155 chars)
+> [18:36:18.577] [PRIME-CLIENT] ( completed (85 chars)
+> [18:36:18.578] [PRIME-GPU  ] Render scale 0.85 verified for next eFootball start
+> [18:36:18.878] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:19.856] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:21.477] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:23.094] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:23.230] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:24.166] [T-STATE   ] MainActivity onPause running=false mode=
+> [18:36:24.183] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [18:36:24.192] [NET-DISC  ] Binding discovery to wlan0#36 10.55.95.26/24
+> [18:36:24.192] [NET-DISC  ] Registered as "Infinix X6728B" on 10.55.95.26:17024
+> [18:36:24.195] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.55.95.26
+> [18:36:24.846] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:25.362] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:36:26.467] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:27.461] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:28.332] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:29.954] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:31.580] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:31.819] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:33.438] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:35.159] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:36.051] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:36.919] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:38.548] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:40.169] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:40.415] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:42.035] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:43.663] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:44.551] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:45.418] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:46.602] [T-STATE   ] MainActivity onPause running=false mode=
+> [18:36:46.619] [NET-DISC  ] Discovery stopped
+> [18:36:47.039] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:48.665] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:48.914] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:50.537] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:52.168] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:53.175] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:54.156] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:55.883] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:57.516] [PRIME-CLIENT] ( completed (37 chars)
+> [18:36:57.780] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:36:59.404] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:01.135] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:02.157] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:03.023] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:04.651] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:06.388] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:06.649] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:08.271] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:09.901] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:10.909] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:11.780] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:13.509] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:15.135] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:15.396] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:17.019] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:18.752] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:19.757] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:20.638] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:22.263] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:23.888] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:24.151] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:25.774] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:27.400] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:28.407] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:29.283] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:30.918] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:32.650] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:32.905] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:34.536] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:36.166] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:37.166] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:38.046] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:39.674] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:41.298] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:41.547] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:43.171] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:44.798] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:45.813] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:46.690] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:48.316] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:49.956] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:50.206] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:51.934] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:53.564] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:54.573] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:37:55.453] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:57.084] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:58.716] [PRIME-CLIENT] ( completed (37 chars)
+> [18:37:58.980] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:00.713] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:02.437] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:03.422] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:04.287] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:05.912] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:07.543] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:07.809] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:09.434] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:11.065] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:12.080] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:12.958] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:14.689] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:16.418] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:16.659] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:18.396] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:20.019] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:21.020] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:21.888] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:23.520] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:25.146] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:25.394] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:27.118] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:28.743] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:29.748] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:30.628] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:32.257] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:33.881] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:34.145] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:35.767] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:37.393] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:38.396] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:39.269] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:40.893] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:42.519] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:42.789] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:44.411] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:46.038] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:47.034] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:47.900] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:49.530] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:51.154] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:51.416] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:53.039] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:54.661] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:55.662] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:38:56.538] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:58.162] [PRIME-CLIENT] ( completed (37 chars)
+> [18:38:59.783] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:00.045] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:01.772] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:03.399] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:04.412] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:05.285] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:06.908] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:08.536] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:08.796] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:10.423] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:12.051] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:13.079] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:13.951] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:15.587] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:17.215] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:17.476] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:19.104] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:20.730] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:21.740] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:22.612] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:24.239] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:25.858] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:26.115] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:27.735] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:29.364] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:30.386] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:31.258] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:32.986] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:34.613] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:34.857] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:36.490] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:38.121] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:39.129] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:40.006] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:41.737] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:43.362] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:43.631] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:45.254] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:46.880] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:47.883] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:48.763] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:50.379] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:52.108] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:52.456] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:54.076] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:55.723] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:56.726] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:39:57.595] [PRIME-CLIENT] ( completed (37 chars)
+> [18:39:59.229] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:00.846] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:00.987] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:02.608] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:04.223] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:05.219] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:06.086] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:07.810] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:09.429] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:09.562] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:11.301] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:13.047] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:14.430] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:15.437] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:17.173] [PRIME-MODE ] Connect port cached: 127.0.0.1:44267
+> [18:40:17.203] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:17.482] [PRIME-MODE ] Wireless-debugging advertisement lost; PrimeServer health checked separately
+> [18:40:18.386] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:19.163] [PRIME-MODE ] Connect port cached: 127.0.0.1:44267
+> [18:40:19.257] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:20.984] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:22.604] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:22.938] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:24.667] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:26.290] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:27.284] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:28.261] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:29.894] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:31.620] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:31.867] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:33.594] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:35.326] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:36.445] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:37.453] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:39.081] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:40.705] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:40.999] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:42.621] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:44.241] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:45.388] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:46.368] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:48.098] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:49.730] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:49.981] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:52.006] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:53.738] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:54.732] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:40:55.611] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:57.338] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:59.063] [PRIME-CLIENT] ( completed (37 chars)
+> [18:40:59.311] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:41:00.927] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:02.549] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:03.557] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:41:04.432] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:06.053] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:07.678] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:07.926] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:41:09.548] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:11.171] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:12.171] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:41:13.040] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:14.659] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:16.283] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:16.535] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:41:18.155] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:19.783] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:20.781] [PRIME-CLIENT] ( completed (1305 chars)
+> [18:41:21.645] [PRIME-CLIENT] ( completed (37 chars)
+> [18:41:21.713] [PRIME-MODE ] Wireless-debugging advertisement lost; PrimeServer health checked separately
+> [18:41:22.035] [NET-DISC  ] Binding discovery to p2p-p2p0-1#73 192.168.49.1/24
+> [18:41:22.036] [NET-DISC  ] Registered as "Infinix X6728B" on 192.168.49.1:17024
+> [18:41:22.054] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 192.168.49.1
+> [18:41:23.153] [PRIME-CLIENT] ( FAILED
+> [18:41:23.269] [PRIME-MODE ] Wireless-debugging advertisement lost; PrimeServer health checked separately
+> [18:41:23.471] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [18:41:23.477] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [18:41:23.478] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [18:41:23.489] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [18:41:24.659] [PRIME-CLIENT] ( FAILED
+> [18:41:24.664] [PRIME-CLIENT] ( FAILED
+> [18:41:26.171] [PRIME-CLIENT] ( FAILED
+> [18:41:27.322] [NET-DISC  ] Wi-Fi path available — reconciling discovery
+> [18:41:27.354] [NET-DISC  ] Binding discovery to wlan0#36 10.55.95.26/24
+> [18:41:27.355] [NET-DISC  ] Registered as "Infinix X6728B" on 10.55.95.26:17024
+> [18:41:27.368] [NET-DISC  ] Discovery stopped
+> [18:41:27.372] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.55.95.26
+> [18:41:27.683] [PRIME-CLIENT] ( FAILED
+> [18:41:29.196] [PRIME-CLIENT] ( FAILED
+> [18:41:29.200] [PRIME-CLIENT] ( FAILED
+> [18:41:30.707] [PRIME-CLIENT] ( FAILED
+> [18:41:32.215] [PRIME-CLIENT] ( FAILED
+> [18:41:33.724] [PRIME-CLIENT] ( FAILED
+> [18:41:33.729] [PRIME-CLIENT] ( FAILED
+> [18:41:35.241] [PRIME-CLIENT] ( FAILED
+> [18:41:35.513] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [18:41:35.515] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [18:41:35.518] [PRIME-MODE ] NSD watcher starting
+> [18:41:35.520] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [18:41:36.755] [PRIME-CLIENT] ( FAILED
+> [18:41:38.269] [PRIME-CLIENT] ( FAILED
+> [18:41:38.278] [PRIME-CLIENT] ( FAILED
+> [18:41:39.790] [PRIME-CLIENT] ( FAILED
+> [18:41:41.305] [PRIME-CLIENT] ( FAILED
+> [18:41:42.819] [PRIME-CLIENT] ( FAILED
+> [18:41:42.827] [PRIME-CLIENT] ( FAILED
+> [18:41:44.342] [PRIME-CLIENT] ( FAILED
+> [18:41:45.857] [PRIME-CLIENT] ( FAILED
+> [18:41:47.366] [PRIME-CLIENT] ( FAILED
+> [18:41:47.371] [PRIME-CLIENT] ( FAILED
+> [18:41:48.884] [PRIME-CLIENT] ( FAILED
+> [18:41:50.395] [PRIME-CLIENT] ( FAILED
+> [18:41:51.907] [PRIME-CLIENT] ( FAILED
+> [18:41:51.916] [PRIME-CLIENT] ( FAILED
+> [18:41:53.427] [PRIME-CLIENT] ( FAILED
+> [18:41:54.624] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:41:54.932] [PRIME-CLIENT] ( FAILED
+> [18:41:56.446] [PRIME-CLIENT] ( FAILED
+> [18:41:56.454] [PRIME-CLIENT] ( FAILED
+> [18:41:57.969] [PRIME-CLIENT] ( FAILED
+> [18:41:59.474] [PRIME-CLIENT] ( FAILED
+> [18:41:59.517] [T-STATE   ] MainActivity onPause running=false mode=
+> [18:41:59.529] [NET-DISC  ] Discovery stopped
+> [18:42:00.983] [PRIME-CLIENT] ( FAILED
+> [18:42:00.990] [PRIME-CLIENT] ( FAILED
+> [18:42:02.498] [PRIME-CLIENT] ( FAILED
+> [18:42:04.007] [PRIME-CLIENT] ( FAILED
+> [18:42:05.519] [PRIME-CLIENT] ( FAILED
+> [18:42:05.524] [PRIME-CLIENT] ( FAILED
+> [18:42:07.033] [PRIME-CLIENT] ( FAILED
+> [18:42:08.540] [PRIME-CLIENT] ( FAILED
+> [18:42:10.048] [PRIME-CLIENT] ( FAILED
+> [18:42:10.052] [PRIME-CLIENT] ( FAILED
+> [18:42:11.560] [PRIME-CLIENT] ( FAILED
+> [18:42:13.066] [PRIME-CLIENT] ( FAILED
+> [18:42:14.573] [PRIME-CLIENT] ( FAILED
+> [18:42:14.577] [PRIME-CLIENT] ( FAILED
+> [18:42:16.084] [PRIME-CLIENT] ( FAILED
+> [18:42:16.137] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:42:16.143] [NET-DISC  ] Binding discovery to wlan0#36 10.55.95.26/24
+> [18:42:16.143] [NET-DISC  ] Registered as "Infinix X6728B" on 10.55.95.26:17024
+> [18:42:16.146] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.55.95.26
+> [18:42:16.241] [NET-DISC  ] Peer found: itel P661N @ 10.55.95.202
+> [18:42:16.245] [NET-DISC  ] Peer discovered: itel P661N @ 10.55.95.202 via beacon
+> [18:42:17.590] [PRIME-CLIENT] ( FAILED
+> [18:42:17.790] [HOTSPOT   ] Found peer: itel P661N
+> [18:42:19.095] [PRIME-CLIENT] ( FAILED
+> [18:42:19.097] [PRIME-CLIENT] ( FAILED
+> [18:42:20.603] [PRIME-CLIENT] ( FAILED
+> [18:42:22.111] [PRIME-CLIENT] ( FAILED
+> [18:42:23.541] [PRIME-GUARD] PrimeServer heartbeat lost — automatic recovery starting
+> [18:42:23.550] [PRIME-MODE ] CONNECTING — Restoring Prime Mode connection…
+> [18:42:23.552] [PRIME-MODE ] ensurePrimeServerAlive: starting (needBootstrap=false)
+> [18:42:23.567] [PRIME-MODE ] Finding this phone's Wireless debugging connection
+> [18:42:23.615] [PRIME-CLIENT] ( FAILED
+> [18:42:23.618] [PRIME-CLIENT] ( FAILED
+> [18:42:23.626] [T-STATE   ] MainActivity onPause running=false mode=
+> [18:42:23.630] [NET-DISC  ] Discovery stopped
+> [18:42:25.125] [PRIME-CLIENT] ( FAILED
+> [18:42:26.486] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:42:26.491] [NET-DISC  ] Binding discovery to wlan0#36 10.55.95.26/24
+> [18:42:26.492] [NET-DISC  ] Registered as "Infinix X6728B" on 10.55.95.26:17024
+> [18:42:26.494] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.55.95.26
+> [18:42:26.497] [PRIME-MODE ] NSD watcher starting
+> [18:42:26.536] [NET-DISC  ] Peer found: Tiamant_ @ 10.55.95.202
+> [18:42:26.555] [NET-DISC  ] Peer discovered: Tiamant_ @ 10.55.95.202 via beacon
+> [18:42:26.633] [PRIME-CLIENT] ( FAILED
+> [18:42:28.140] [PRIME-CLIENT] ( FAILED
+> [18:42:28.143] [PRIME-CLIENT] ( FAILED
+> [18:42:29.651] [PRIME-CLIENT] ( FAILED
+> [18:42:31.161] [PRIME-CLIENT] ( FAILED
+> [18:42:32.666] [PRIME-CLIENT] ( FAILED
+> [18:42:32.669] [PRIME-CLIENT] ( FAILED
+> [18:42:34.181] [PRIME-CLIENT] ( FAILED
+> [18:42:35.587] [PRIME-MODE ] Bootstrap FAILED: No local ADB endpoint found. Keep Wireless debugging enabled.
+> [18:42:35.590] [PRIME-MODE ] ERROR — No local ADB endpoint found. Keep Wireless debugging enabled.
+> [18:42:35.592] [PRIME-MODE ] PRIME_MODE_ACTIVE — Prime active · engine reconnect pending
+> [18:42:35.693] [PRIME-CLIENT] ( FAILED
+> [18:42:35.709] [NET-DISC  ] Peer expired: Tiamant_ @ 10.55.95.202
+> [18:42:37.209] [PRIME-CLIENT] ( FAILED
+> [18:42:37.217] [PRIME-CLIENT] ( FAILED
+> [18:42:38.731] [PRIME-CLIENT] ( FAILED
+> [18:42:39.222] [NET-DISC  ] Peer found: Tiamant_ @ 10.55.95.202
+> [18:42:39.223] [NET-DISC  ] Peer discovered: Tiamant_ @ 10.55.95.202 via beacon
+> [18:42:40.090] [HOTSPOT   ] Found peer: Tiamant_
+> [18:42:40.246] [PRIME-CLIENT] ( FAILED
+> [18:42:41.154] [PRIME-MEM  ] Memory Director stopped
+> [18:42:41.159] [PRIME-CLIENT] ( FAILED
+> [18:42:41.162] [PRIME-CLIENT] ( FAILED
+> [18:42:41.162] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:41.165] [PRIME-CLIENT] ( FAILED
+> [18:42:41.165] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:41.166] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:41.166] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:42.079] [PRIME-MEM  ] Memory Director stopped
+> [18:42:42.083] [PRIME-CLIENT] ( FAILED
+> [18:42:42.086] [PRIME-CLIENT] ( FAILED
+> [18:42:42.086] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:42.088] [PRIME-CLIENT] ( FAILED
+> [18:42:42.089] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:42.089] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:42.089] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:42.883] [PRIME-MEM  ] Memory Director stopped
+> [18:42:42.886] [PRIME-CLIENT] ( FAILED
+> [18:42:42.890] [PRIME-CLIENT] ( FAILED
+> [18:42:42.891] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:42.896] [PRIME-CLIENT] ( FAILED
+> [18:42:42.897] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:42.898] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:42.899] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:43.546] [PRIME-MEM  ] Memory Director stopped
+> [18:42:43.549] [PRIME-CLIENT] ( FAILED
+> [18:42:43.553] [PRIME-CLIENT] ( FAILED
+> [18:42:43.553] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:43.556] [PRIME-CLIENT] ( FAILED
+> [18:42:43.556] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:43.557] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:43.557] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:47.076] [PRIME-MEM  ] Memory Director stopped
+> [18:42:47.080] [PRIME-CLIENT] ( FAILED
+> [18:42:47.083] [PRIME-CLIENT] ( FAILED
+> [18:42:47.083] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:47.085] [PRIME-CLIENT] ( FAILED
+> [18:42:47.087] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:47.090] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:47.091] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:47.982] [PRIME-MEM  ] Memory Director stopped
+> [18:42:47.985] [PRIME-CLIENT] ( FAILED
+> [18:42:47.987] [PRIME-CLIENT] ( FAILED
+> [18:42:47.988] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:47.990] [PRIME-CLIENT] ( FAILED
+> [18:42:47.990] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:47.990] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:47.990] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:48.758] [PRIME-MEM  ] Memory Director stopped
+> [18:42:48.761] [PRIME-CLIENT] ( FAILED
+> [18:42:48.763] [PRIME-CLIENT] ( FAILED
+> [18:42:48.764] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:48.766] [PRIME-CLIENT] ( FAILED
+> [18:42:48.766] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:48.767] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:48.767] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:49.224] [PRIME-MEM  ] Memory Director stopped
+> [18:42:49.227] [PRIME-CLIENT] ( FAILED
+> [18:42:49.230] [PRIME-CLIENT] ( FAILED
+> [18:42:49.231] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:49.239] [PRIME-CLIENT] ( FAILED
+> [18:42:49.240] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:49.240] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:49.243] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:49.772] [PRIME-MEM  ] Memory Director stopped
+> [18:42:49.774] [PRIME-CLIENT] ( FAILED
+> [18:42:49.776] [PRIME-CLIENT] ( FAILED
+> [18:42:49.777] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:49.779] [PRIME-CLIENT] ( FAILED
+> [18:42:49.780] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:49.780] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:49.780] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:50.300] [PRIME-MEM  ] Memory Director stopped
+> [18:42:50.302] [PRIME-CLIENT] ( FAILED
+> [18:42:50.305] [PRIME-CLIENT] ( FAILED
+> [18:42:50.306] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:50.309] [PRIME-CLIENT] ( FAILED
+> [18:42:50.310] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:50.310] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:50.310] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:50.678] [PRIME-MEM  ] Memory Director stopped
+> [18:42:50.682] [PRIME-CLIENT] ( FAILED
+> [18:42:50.685] [PRIME-CLIENT] ( FAILED
+> [18:42:50.685] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:50.688] [PRIME-CLIENT] ( FAILED
+> [18:42:50.688] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:50.689] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:50.689] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:50.926] [PRIME-MEM  ] Memory Director stopped
+> [18:42:50.928] [PRIME-CLIENT] ( FAILED
+> [18:42:50.932] [PRIME-CLIENT] ( FAILED
+> [18:42:50.932] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:50.935] [PRIME-CLIENT] ( FAILED
+> [18:42:50.936] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:50.936] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:50.937] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:51.158] [PRIME-MEM  ] Memory Director stopped
+> [18:42:51.161] [PRIME-CLIENT] ( FAILED
+> [18:42:51.164] [PRIME-CLIENT] ( FAILED
+> [18:42:51.164] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:51.167] [PRIME-CLIENT] ( FAILED
+> [18:42:51.167] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:51.168] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:51.168] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:51.405] [PRIME-MEM  ] Memory Director stopped
+> [18:42:51.407] [PRIME-CLIENT] ( FAILED
+> [18:42:51.410] [PRIME-CLIENT] ( FAILED
+> [18:42:51.410] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:51.413] [PRIME-CLIENT] ( FAILED
+> [18:42:51.413] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:51.413] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:51.414] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:51.640] [PRIME-MEM  ] Memory Director stopped
+> [18:42:51.643] [PRIME-CLIENT] ( FAILED
+> [18:42:51.646] [PRIME-CLIENT] ( FAILED
+> [18:42:51.647] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:51.650] [PRIME-CLIENT] ( FAILED
+> [18:42:51.650] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:51.651] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:51.651] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:51.869] [PRIME-MEM  ] Memory Director stopped
+> [18:42:51.874] [PRIME-CLIENT] ( FAILED
+> [18:42:51.877] [PRIME-CLIENT] ( FAILED
+> [18:42:51.878] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:51.883] [PRIME-CLIENT] ( FAILED
+> [18:42:51.883] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:51.885] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:51.886] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:52.134] [PRIME-MEM  ] Memory Director stopped
+> [18:42:52.137] [PRIME-CLIENT] ( FAILED
+> [18:42:52.139] [PRIME-CLIENT] ( FAILED
+> [18:42:52.140] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:52.142] [PRIME-CLIENT] ( FAILED
+> [18:42:52.143] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:52.143] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:52.143] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:52.450] [PRIME-MEM  ] Memory Director stopped
+> [18:42:52.455] [PRIME-CLIENT] ( FAILED
+> [18:42:52.460] [PRIME-CLIENT] ( FAILED
+> [18:42:52.460] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:52.466] [PRIME-CLIENT] ( FAILED
+> [18:42:52.466] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:52.467] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:52.467] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:52.713] [PRIME-MEM  ] Memory Director stopped
+> [18:42:52.717] [PRIME-CLIENT] ( FAILED
+> [18:42:52.719] [PRIME-CLIENT] ( FAILED
+> [18:42:52.720] [PRIME-MODE ] Airplane radio list restored FAILED: exit=-1 
+> [18:42:52.725] [PRIME-CLIENT] ( FAILED
+> [18:42:52.725] [PRIME-MODE ] PeerLink Doze exception restored FAILED: exit=-1 
+> [18:42:52.725] [PRIME-MODE ] ERROR — Prime Mode stopped, but some phone settings need restore
+> [18:42:52.726] [PRIME-MODE ] Restore incomplete — snapshot retained for retry
+> [18:42:53.728] [NET-DISC  ] Peer expired: Tiamant_ @ 10.55.95.202
+> [18:43:00.685] [T-STATE   ] MainActivity onPause running=false mode=
+> [18:43:00.689] [NET-DISC  ] Discovery stopped
+> [18:43:02.009] [T-STATE   ] MainActivity onResume running=false mode=
+> [18:43:02.018] [NET-DISC  ] Binding discovery to wlan0#36 10.55.95.26/24
+> [18:43:02.020] [NET-DISC  ] Registered as "Infinix X6728B" on 10.55.95.26:17024
+> [18:43:02.022] [NET-DISC  ] RX UDP 17026 wildcard; TX pinned to 10.55.95.26
+> [18:43:02.959] [NET-DISC  ] Wi-Fi path available — reconciling discovery
