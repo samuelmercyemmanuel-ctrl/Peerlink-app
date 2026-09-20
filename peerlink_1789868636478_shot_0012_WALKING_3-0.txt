@@ -1,0 +1,1 @@
+WALKING 3-0 final=UNKNOWN stats=0 why=walking hueY=59.739132 yellowPx=83392.0 need=300.0 strict=0.2063668 pairs=1 unread=0 boxA=56x54@476,108 boxB=56x46@364,116 rows=0 strip=true 1769ms
